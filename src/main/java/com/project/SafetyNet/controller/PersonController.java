@@ -28,8 +28,13 @@ public class PersonController {
 	
 	@PostMapping
 	public ResponseEntity<Person> addPerson(@RequestBody Person person) {
-		personService.addPerson(person);
-		return new ResponseEntity<>(person, HttpStatus.CREATED);
+		try {
+			personService.addPerson(person);
+			return new ResponseEntity<>(person, HttpStatus.CREATED);
+		} catch (Exception e) {
+			e.printStackTrace();
+			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+		}
 	}
 	
 	@PutMapping

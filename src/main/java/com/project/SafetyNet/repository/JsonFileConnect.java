@@ -1,26 +1,32 @@
 package com.project.SafetyNet.repository;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.project.SafetyNet.model.AllData;
+import com.project.SafetyNet.model.MedicalRecords;
 import com.project.SafetyNet.model.Person;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Repository;
 
 @Repository
+@PropertySource("classpath:application.properties")
 public class JsonFileConnect {
 	
-	private static final String JSON_FILE_PATH = "src/main/resources/data.json";
+	@Value("${json.data.path}")
+	private String jsonFilePath;
 	private final ObjectMapper objectMapper = new ObjectMapper();
 	
-	public AllData readJson() throws IOException {
-		return objectMapper.readValue(new File(JSON_FILE_PATH), AllData.class);
+	private AllData readJson() throws IOException {
+		return objectMapper.readValue(new File(jsonFilePath), AllData.class);
 	}
 	
-	public void writeJson(AllData allData) throws IOException {
-		objectMapper.writeValue(new File(JSON_FILE_PATH), allData);
+	private void writeJson(AllData allData) throws IOException {
+		objectMapper.writeValue(new File(jsonFilePath), allData);
 	}
 	
 	public List<Person> getAllPersons() throws IOException {
@@ -32,5 +38,16 @@ public class JsonFileConnect {
 		allData.setPersons(persons);
 		writeJson(allData);
 	}
+	
+	public List<MedicalRecords> getAllMedicalRecords() throws IOException {
+		return readJson().getMedicalRecords();
+	}
+	
+	public void saveAllMedicalRecords(List<MedicalRecords> medicalrecords) throws IOException {
+		AllData allData = readJson();
+		allData.setMedicalRecords(medicalrecords);
+		writeJson(allData);
+	}
+	
 
 }

@@ -24,7 +24,8 @@ public class PersonServiceTest {
 	 @InjectMocks 
 	 private PersonService personService;
 	 
-	 @BeforeEach void setUp() {
+	 @BeforeEach
+	 void setUp() {
 		 MockitoAnnotations.openMocks(this); 
 		 }
 	 

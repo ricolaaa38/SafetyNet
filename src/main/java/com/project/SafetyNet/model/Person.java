@@ -12,12 +12,12 @@ public class Person {
 	private String email;
 	
 	
-	public Object getFirstName() {
+	public String getFirstName() {
 		return firstName;
 	}
 
 
-	public Object getLastName() {
+	public String getLastName() {
 		return lastName;
 	}
 	

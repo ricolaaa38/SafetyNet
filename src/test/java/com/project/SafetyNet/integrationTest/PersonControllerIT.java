@@ -2,20 +2,17 @@ package com.project.SafetyNet.integrationTest;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper; 
-import com.project.SafetyNet.model.AllData;
+
 import com.project.SafetyNet.model.Person; 
-import com.project.SafetyNet.repository.JsonFileConnect;
-import com.project.SafetyNet.service.PersonService;
-import org.junit.jupiter.api.BeforeEach; 
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.core.io.Resource;
-import org.springframework.core.io.ResourceLoader;
+
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc; 
-import java.io.IOException; 
+ 
 import java.util.List;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
@@ -27,21 +24,11 @@ public class PersonControllerIT {
 	@Autowired
 	private MockMvc mockMvc;
 	
-	@Autowired
-	private ResourceLoader resourceLoader;
-	
-	@Autowired private PersonService personService; 
-	
-	@Autowired private JsonFileConnect jsonFileConnect;
+
 	
 	private ObjectMapper objectMapper = new ObjectMapper();
 	
-	@BeforeEach void setUp() throws IOException {
-		// Charge data form JSON file
-		Resource resource = resourceLoader.getResource("classpath:data.json");
-		AllData allData = objectMapper.readValue(resource.getInputStream(), AllData.class); 
-		jsonFileConnect.writeJson(allData);
-	}
+	
 	
 	@Test 
 	void testGetAllPersons() throws Exception { 

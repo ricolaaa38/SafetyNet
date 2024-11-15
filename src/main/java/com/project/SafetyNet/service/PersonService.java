@@ -8,6 +8,7 @@ import com.project.SafetyNet.repository.JsonFileConnect;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PersonService {
@@ -41,18 +42,22 @@ public class PersonService {
 	public Person updatePerson(Person person) {
 		try {
 			List<Person> persons = jsonFileConnect.getAllPersons();
-			for (int i = 0; i < persons.size(); i++) {
-				Person p = persons.get(i);
-				if (p.getFirstName().equals(person.getFirstName()) && p.getLastName().equals(person.getLastName())) {
-					p.setAddress(person.getAddress());
-					p.setCity(person.getCity());
-					p.setZip(person.getZip());
-					p.setPhone(person.getPhone());
-					p.setEmail(person.getEmail());
+			Optional<Person> optionalPerson = persons.stream().filter(p -> p.getFirstName().equals(person.getFirstName()) && p.getLastName().equals(person.getLastName())).findFirst();
+			optionalPerson.ifPresent(p -> {
+				p.setAddress(person.getAddress());
+				p.setCity(person.getCity());
+				p.setZip(person.getZip());
+				p.setPhone(person.getPhone());
+				p.setEmail(person.getEmail());
+				try {
 					jsonFileConnect.saveAllPersons(persons);
-					return person;
+				} catch (IOException e) {
+					e.printStackTrace();
 				}
-			}
+			});
+			
+			return optionalPerson.orElse(null);
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -77,3 +82,17 @@ public class PersonService {
 	}
 	
 }
+
+// Other method for updatePerson:
+//persons.forEach(System.out::println);
+//for (Person p : persons) {
+//	if (p.getFirstName().equals(person.getFirstName()) && p.getLastName().equals(person.getLastName())) {
+//		p.setAddress(person.getAddress());
+//		p.setCity(person.getCity());
+//		p.setZip(person.getZip());
+//		p.setPhone(person.getPhone());
+//		p.setEmail(person.getEmail());
+//		jsonFileConnect.saveAllPersons(persons);
+//		return person;
+//	}
+//}
