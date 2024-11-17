@@ -2,6 +2,7 @@ package com.project.SafetyNet.repository;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.project.SafetyNet.model.AllData;
+import com.project.SafetyNet.model.Firestations;
 import com.project.SafetyNet.model.MedicalRecords;
 import com.project.SafetyNet.model.Person;
 
@@ -49,5 +50,14 @@ public class JsonFileConnect {
 		writeJson(allData);
 	}
 	
+	public List<Firestations> getAllFirestations() throws IOException {
+		return readJson().getFirestations();
+	}
+	
+	public void saveAllFirestations(List<Firestations> firestations) throws IOException {
+		AllData allData = readJson();
+		allData.setFirestations(firestations);
+		writeJson(allData);
+	}
 
 }

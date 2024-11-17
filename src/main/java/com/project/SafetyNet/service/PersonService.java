@@ -7,6 +7,7 @@ import com.project.SafetyNet.model.Person;
 import com.project.SafetyNet.repository.JsonFileConnect;
 
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
@@ -33,35 +34,50 @@ public class PersonService {
 		try {
 			List<Person> persons = jsonFileConnect.getAllPersons();
 			persons.add(person);
-			jsonFileConnect.saveAllPersons(persons);
+			savePersonData(persons);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 	
 	public Person updatePerson(Person person) {
-		try {
-			List<Person> persons = jsonFileConnect.getAllPersons();
+		List<Person> persons = extractedPerson();
 			Optional<Person> optionalPerson = persons.stream().filter(p -> p.getFirstName().equals(person.getFirstName()) && p.getLastName().equals(person.getLastName())).findFirst();
-			optionalPerson.ifPresent(p -> {
-				p.setAddress(person.getAddress());
-				p.setCity(person.getCity());
-				p.setZip(person.getZip());
-				p.setPhone(person.getPhone());
-				p.setEmail(person.getEmail());
-				try {
-					jsonFileConnect.saveAllPersons(persons);
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			});
-			
-			return optionalPerson.orElse(null);
+			if (optionalPerson.isPresent()) {
+			 Person p = rewritePerson(person, optionalPerson);
+				savePersonData(persons);
+				return p;
+			}
+		return null;
+	}
 
+	private List<Person> extractedPerson() {
+		try {
+			return jsonFileConnect.getAllPersons();
+		
+		} catch (IOException e) {
+			e.printStackTrace();
+			
+		}
+		return Collections.emptyList();
+	}
+
+	private Person rewritePerson(Person person, Optional<Person> optionalPerson) {
+		Person p = optionalPerson.get();
+			p.setAddress(person.getAddress());
+			p.setCity(person.getCity());
+			p.setZip(person.getZip());
+			p.setPhone(person.getPhone());
+			p.setEmail(person.getEmail());
+		return p;
+	}
+
+	private void savePersonData(List<Person> persons) {
+		try {
+			jsonFileConnect.saveAllPersons(persons);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return null;
 	}
 	
 	public boolean deletePerson(String firstName, String lastName) {
@@ -71,7 +87,7 @@ public class PersonService {
 				Person p = persons.get(i);
 				if (p.getFirstName().equals(firstName) && p.getLastName().equals(lastName)) {
 					persons.remove(i);
-					jsonFileConnect.saveAllPersons(persons);
+					savePersonData(persons);
 					return true;
 				}
 			}
