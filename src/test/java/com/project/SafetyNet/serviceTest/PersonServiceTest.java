@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Arrays; 
 import java.util.List; 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.*;
 
 public class PersonServiceTest {
@@ -81,4 +82,19 @@ public class PersonServiceTest {
 		 boolean isDeleted = personService.deletePerson("Jean", "Jacque"); 
 		 assertEquals(true, isDeleted);
 		 }
+	 
+	 @Test
+	 void testGetEmailsByCity() throws IOException {
+		 Person person1 = new Person();
+		 person1.setCity("grenoble");
+		 person1.setEmail("test@test.com");
+		 Person person2 = new Person();
+		 person2.setCity("grenoble");
+		 person2.setEmail("test2@test.com");
+		 when(jsonFileConnect.getAllPersons()).thenReturn(Arrays.asList(person1, person2));
+		 List<String> emails = personService.getEmailsByCity("grenoble");
+		 assertEquals(2, emails.size());
+		 assertTrue(emails.contains("test@test.com"));
+		 assertTrue(emails.contains("test2@test.com"));
+	 }
 }
