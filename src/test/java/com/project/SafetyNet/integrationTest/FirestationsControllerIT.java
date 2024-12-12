@@ -70,4 +70,34 @@ public class FirestationsControllerIT {
 				.param("address", "36 15th Street"))
 		.andExpect(status().isNoContent());
 	}
+	
+	@Test
+	void testGetPersonsByStation() throws Exception {
+		mockMvc.perform(get("/firestation?stationNumber=1"))
+			.andExpect(status().isOk())
+			.andExpect(jsonPath("$.persons[0].firstName").value("Peter"))
+			.andExpect(jsonPath("$.persons[1].lastName").value("Walker"));
+	}
+	
+	@Test
+	void testGetPhoneByFirestationNumber() throws Exception {
+		mockMvc.perform(get("/phoneAlert?firestation=2"))
+		.andExpect(status().isOk())
+		.andExpect(jsonPath("$.[0]").value("841-874-6513"));
+	}
+	
+	@Test
+	void testGetHouseMembersAndFirestationByAddress() throws Exception {
+		mockMvc.perform(get("/fire?address=1509 Culver St"))
+			.andExpect(status().isOk())
+			.andExpect(jsonPath("$.stationNumber").value("3"))
+			.andExpect(jsonPath("$.houseMembers[0].lastName").value("Boyd"));
+	}
+	
+	@Test
+	void testGetFloodInfoByStation() throws Exception {
+		mockMvc.perform(get("/flood/stations?station=1"))
+			.andExpect(status().isOk())
+			.andExpect(jsonPath("$.[0].residents[0].lastName").value("Duncan"));
+	}
 }

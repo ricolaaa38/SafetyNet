@@ -88,4 +88,22 @@ public class PersonControllerIT {
 				.param("lastName", "Nadette"))
 		.andExpect(status().isNoContent());
 	}
+	
+	@Test
+	void testGetEmailsByCity() throws Exception {
+		mockMvc.perform(get("/communityEmail?city=pasici"))
+		.andExpect(jsonPath("$.[0]").value("ber.nadette@email.com"));
+	}
+	
+	@Test
+	void testGetChildAlertByAddress() throws Exception {
+		mockMvc.perform(get("/childAlert?address=892 Downing Ct"))
+			.andExpect(jsonPath("$.[0].firstName").value("Zach"));
+	}
+	
+	@Test
+	void testGetAllPersonsInfoByLastName() throws Exception {
+		mockMvc.perform(get("/personInfo?lastName=cooper"))
+			.andExpect(jsonPath("$.[0].lastName").value("Cooper"));
+	}
 }

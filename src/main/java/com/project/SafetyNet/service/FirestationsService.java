@@ -236,7 +236,7 @@ public class FirestationsService {
 	                .collect(Collectors.toList());
 
 	        List<FloodDTO> floodInfo = addresses.stream()
-	                .map(address -> {
+	        		.map(address -> {
 	                    List<FireDTO> residents = persons.stream()
 	                            .filter(person -> person.getAddress().equals(address))
 	                            .map(person -> {
@@ -256,7 +256,7 @@ public class FirestationsService {
 	                                        medicalRecord != null ? medicalRecord.getAllergies() : List.of()
 	                                );
 	                            })
-	                            .collect(Collectors.toList());
+	                            				.collect(Collectors.toList());
 
 	                    return new FloodDTO(address, residents);
 	                })

@@ -4,7 +4,7 @@ import java.util.List;
 
 public class FloodDTO {
 
-	 private String address;
+	 	private String address;
 	    private List<FireDTO> residents;
 
 	    public FloodDTO(String address, List<FireDTO> residents) {
