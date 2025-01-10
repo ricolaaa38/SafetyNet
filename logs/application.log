@@ -1,0 +1,64 @@
+2025-01-10T09:16:13.359+01:00  INFO 19036 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Starting SafetyNetApplication using Java 21.0.4 with PID 19036 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-10T09:16:13.372+01:00  INFO 19036 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-01-10T09:16:14.545+01:00  INFO 19036 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Started SafetyNetApplication in 1.509 seconds (process running for 2.138)
+2025-01-10T09:17:08.705+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : Starting FirestationsControllerIT using Java 21.0.4 with PID 22468 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-10T09:17:08.708+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : No active profile set, falling back to 1 default profile: "default"
+2025-01-10T09:17:10.086+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : Started FirestationsControllerIT in 1.832 seconds (process running for 4.568)
+2025-01-10T09:17:11.611+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 0 addresses for stationNumber 99
+2025-01-10T09:17:11.614+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : No addresses found for stationNumber 99
+2025-01-10T09:17:11.628+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 3 addresses for stationNumber 1
+2025-01-10T09:17:11.631+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 5 adults and 1 children for stationNumber 1
+2025-01-10T09:17:12.127+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 1 addresses for stationNumber 1
+2025-01-10T09:17:12.129+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 1 adults and 1 children for stationNumber 1
+2025-01-10T09:21:23.801+01:00  INFO 6404 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Starting SafetyNetApplication using Java 21.0.4 with PID 6404 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-10T09:21:23.803+01:00  INFO 6404 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-01-10T09:21:24.833+01:00  INFO 6404 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Started SafetyNetApplication in 1.332 seconds (process running for 1.906)
+2025-01-10T09:21:47.656+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : Starting FirestationsControllerIT using Java 21.0.4 with PID 28640 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-10T09:21:47.658+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : No active profile set, falling back to 1 default profile: "default"
+2025-01-10T09:21:49.050+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : Started FirestationsControllerIT in 1.879 seconds (process running for 3.955)
+2025-01-10T09:21:50.390+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Station number 3 found for address=1509 Culver St
+2025-01-10T09:21:50.396+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Retrieved 5 house members for address=1509 Culver St
+2025-01-10T09:21:50.465+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 0 addresses for stationNumber 99
+2025-01-10T09:21:50.465+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : No addresses found for stationNumber 99
+2025-01-10T09:21:50.483+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 3 addresses for stationNumber 1
+2025-01-10T09:21:50.486+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 5 adults and 1 children for stationNumber 1
+2025-01-10T09:21:50.497+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 3 address(es) for firestation 2
+2025-01-10T09:21:50.498+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Retrieved 4 unique phone number(s) for firestation 2
+2025-01-10T09:21:50.984+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 1 addresses for stationNumber 1
+2025-01-10T09:21:50.985+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 1 adults and 1 children for stationNumber 1
+2025-01-10T09:26:13.109+01:00  INFO 11164 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Starting SafetyNetApplication using Java 21.0.4 with PID 11164 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-10T09:26:13.111+01:00  INFO 11164 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-01-10T09:26:13.995+01:00  INFO 11164 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Started SafetyNetApplication in 1.176 seconds (process running for 1.709)
+2025-01-10T09:26:25.453+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : Starting FirestationsControllerIT using Java 21.0.4 with PID 18248 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-10T09:26:25.455+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : No active profile set, falling back to 1 default profile: "default"
+2025-01-10T09:26:26.638+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : Started FirestationsControllerIT in 1.595 seconds (process running for 3.58)
+2025-01-10T09:26:27.722+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Firestation mapping added: com.project.SafetyNet.model.Firestations@1f410c8
+2025-01-10T09:26:27.739+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully saved firestation mappings.
+2025-01-10T09:26:27.826+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Firestation mapping found for address=36 15th Street, deleting...
+2025-01-10T09:26:27.829+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully saved firestation mappings.
+2025-01-10T09:26:27.830+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Firestation mapping for address=36 15th Street successfully deleted.
+2025-01-10T09:26:27.844+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Station number 3 found for address=1509 Culver St
+2025-01-10T09:26:27.846+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Retrieved 5 house members for address=1509 Culver St
+2025-01-10T09:26:27.860+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully fetched all firestations.
+2025-01-10T09:26:27.877+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 3 address(es) for station 1
+2025-01-10T09:26:27.878+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Retrieved flood info for 3 address(es) in station 1
+2025-01-10T09:26:27.893+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully fetched extracted firestations.
+2025-01-10T09:26:27.893+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Updating firestation number for address=36 15th Street to station=58
+2025-01-10T09:26:27.897+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully saved firestation mappings.
+2025-01-10T09:26:27.906+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 0 addresses for stationNumber 99
+2025-01-10T09:26:27.906+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : No addresses found for stationNumber 99
+2025-01-10T09:26:27.922+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 3 addresses for stationNumber 1
+2025-01-10T09:26:27.925+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 5 adults and 1 children for stationNumber 1
+2025-01-10T09:26:27.936+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 3 address(es) for firestation 2
+2025-01-10T09:26:27.937+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Retrieved 4 unique phone number(s) for firestation 2
+2025-01-10T09:26:28.313+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully fetched all firestations.
+2025-01-10T09:26:28.331+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Firestation mapping found for address=5 impasse sans fin, deleting...
+2025-01-10T09:26:28.333+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully saved firestation mappings.
+2025-01-10T09:26:28.333+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Firestation mapping for address=5 impasse sans fin successfully deleted.
+2025-01-10T09:26:28.339+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Firestation mapping added: com.project.SafetyNet.model.Firestations@2b4a0be0
+2025-01-10T09:26:28.340+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully saved firestation mappings.
+2025-01-10T09:26:28.363+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully fetched extracted firestations.
+2025-01-10T09:26:28.364+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Updating firestation number for address=12bis boulevard de la rue to station=3
+2025-01-10T09:26:28.364+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully saved firestation mappings.
+2025-01-10T09:26:28.369+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 1 addresses for stationNumber 1
+2025-01-10T09:26:28.370+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 1 adults and 1 children for stationNumber 1

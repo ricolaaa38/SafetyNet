@@ -80,6 +80,15 @@ public class FirestationsControllerIT {
 	}
 	
 	@Test
+	void testgetPersonsbyStation_whenNoOneIsAssociatedToTheStationNumber() throws Exception {
+		mockMvc.perform(get("/firestation?stationNumber=99"))
+        .andExpect(status().isOk())
+        .andExpect(jsonPath("$.persons").isEmpty())
+        .andExpect(jsonPath("$.adults").value(0))
+        .andExpect(jsonPath("$.children").value(0));
+	}
+	
+	@Test
 	void testGetPhoneByFirestationNumber() throws Exception {
 		mockMvc.perform(get("/phoneAlert?firestation=2"))
 		.andExpect(status().isOk())
@@ -100,4 +109,5 @@ public class FirestationsControllerIT {
 			.andExpect(status().isOk())
 			.andExpect(jsonPath("$.[0].residents[0].lastName").value("Duncan"));
 	}
+	
 }
