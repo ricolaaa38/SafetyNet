@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5p %c{1} - %m%n"/>
+        </Console>
+
+		<File name="SuccessLog" fileName="logs/success.log">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+        </File>
+
+        <File name="DebugLog" fileName="logs/debug.log">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+        </File>
+
+        <File name="ErrorLog" fileName="logs/error.log">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+        </File>
+      
+        <File name="File" fileName="logs/application.log" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5p %c{1} - %m%n"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        
+        <Logger name="com.project.success" level="info" additivity="false">
+            <AppenderRef ref="SuccessLog"/>
+        </Logger>
+
+        
+        <Logger name="com.project.error" level="error" additivity="false">
+            <AppenderRef ref="ErrorLog"/>
+        </Logger>
+
+   
+        <Logger name="com.project.debug" level="debug" additivity="false">
+        	<AppenderRef ref="DebugLog"/>
+        </Logger>
+
+     
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>

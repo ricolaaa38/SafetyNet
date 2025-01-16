@@ -71,7 +71,7 @@ public class MedicalRecordsControllerIT {
 	}
 	
 	@Test
-	void testUpdateMedicalRecord() throws Exception {
+	void testUpdateMedicalRecord_whenMedicalRecordDoeasExist() throws Exception {
 		MedicalRecords medicalRecord = new MedicalRecords();
 		medicalRecord.setFirstName("pat");
 		medicalRecord.setLastName("patrouille");
@@ -90,10 +90,30 @@ public class MedicalRecordsControllerIT {
 	}
 	
 	@Test
-	void testDeletePerson() throws Exception {
+	void testUpdateMedicalRecord_whenMedicalRecordDoesNotExist() throws Exception {
+	    MedicalRecords medicalRecord = new MedicalRecords();
+	    medicalRecord.setFirstName("notfound");
+	    medicalRecord.setLastName("person");
+
+	    mockMvc.perform(put("/medicalRecord")
+	            .contentType(MediaType.APPLICATION_JSON)
+	            .content(objectMapper.writeValueAsString(medicalRecord)))
+	           .andExpect(status().isNotFound());
+	}
+	
+	@Test
+	void testDeletePerson_whenMedicalRecordDoesExist() throws Exception {
 		mockMvc.perform(delete("/medicalRecord")
 				.param("firstName", "pat")
 				.param("lastName", "patrouille"))
 		.andExpect(status().isNoContent());
+	}
+	
+	@Test
+	void testDeleteMedicalRecord_whenMedicalRecordDoesNotExist() throws Exception {
+	    mockMvc.perform(delete("/medicalRecord")
+	            .param("firstName", "notfound")
+	            .param("lastName", "person"))
+	           .andExpect(status().isNotFound());
 	}
 }

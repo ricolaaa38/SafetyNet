@@ -1,64 +1,805 @@
-2025-01-10T09:16:13.359+01:00  INFO 19036 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Starting SafetyNetApplication using Java 21.0.4 with PID 19036 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
-2025-01-10T09:16:13.372+01:00  INFO 19036 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-01-10T09:16:14.545+01:00  INFO 19036 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Started SafetyNetApplication in 1.509 seconds (process running for 2.138)
-2025-01-10T09:17:08.705+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : Starting FirestationsControllerIT using Java 21.0.4 with PID 22468 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
-2025-01-10T09:17:08.708+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : No active profile set, falling back to 1 default profile: "default"
-2025-01-10T09:17:10.086+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : Started FirestationsControllerIT in 1.832 seconds (process running for 4.568)
-2025-01-10T09:17:11.611+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 0 addresses for stationNumber 99
-2025-01-10T09:17:11.614+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : No addresses found for stationNumber 99
-2025-01-10T09:17:11.628+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 3 addresses for stationNumber 1
-2025-01-10T09:17:11.631+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 5 adults and 1 children for stationNumber 1
-2025-01-10T09:17:12.127+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 1 addresses for stationNumber 1
-2025-01-10T09:17:12.129+01:00  INFO 22468 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 1 adults and 1 children for stationNumber 1
-2025-01-10T09:21:23.801+01:00  INFO 6404 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Starting SafetyNetApplication using Java 21.0.4 with PID 6404 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
-2025-01-10T09:21:23.803+01:00  INFO 6404 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-01-10T09:21:24.833+01:00  INFO 6404 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Started SafetyNetApplication in 1.332 seconds (process running for 1.906)
-2025-01-10T09:21:47.656+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : Starting FirestationsControllerIT using Java 21.0.4 with PID 28640 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
-2025-01-10T09:21:47.658+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : No active profile set, falling back to 1 default profile: "default"
-2025-01-10T09:21:49.050+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : Started FirestationsControllerIT in 1.879 seconds (process running for 3.955)
-2025-01-10T09:21:50.390+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Station number 3 found for address=1509 Culver St
-2025-01-10T09:21:50.396+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Retrieved 5 house members for address=1509 Culver St
-2025-01-10T09:21:50.465+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 0 addresses for stationNumber 99
-2025-01-10T09:21:50.465+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : No addresses found for stationNumber 99
-2025-01-10T09:21:50.483+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 3 addresses for stationNumber 1
-2025-01-10T09:21:50.486+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 5 adults and 1 children for stationNumber 1
-2025-01-10T09:21:50.497+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 3 address(es) for firestation 2
-2025-01-10T09:21:50.498+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Retrieved 4 unique phone number(s) for firestation 2
-2025-01-10T09:21:50.984+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 1 addresses for stationNumber 1
-2025-01-10T09:21:50.985+01:00  INFO 28640 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 1 adults and 1 children for stationNumber 1
-2025-01-10T09:26:13.109+01:00  INFO 11164 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Starting SafetyNetApplication using Java 21.0.4 with PID 11164 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
-2025-01-10T09:26:13.111+01:00  INFO 11164 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-01-10T09:26:13.995+01:00  INFO 11164 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Started SafetyNetApplication in 1.176 seconds (process running for 1.709)
-2025-01-10T09:26:25.453+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : Starting FirestationsControllerIT using Java 21.0.4 with PID 18248 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
-2025-01-10T09:26:25.455+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : No active profile set, falling back to 1 default profile: "default"
-2025-01-10T09:26:26.638+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.i.FirestationsControllerIT         : Started FirestationsControllerIT in 1.595 seconds (process running for 3.58)
-2025-01-10T09:26:27.722+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Firestation mapping added: com.project.SafetyNet.model.Firestations@1f410c8
-2025-01-10T09:26:27.739+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully saved firestation mappings.
-2025-01-10T09:26:27.826+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Firestation mapping found for address=36 15th Street, deleting...
-2025-01-10T09:26:27.829+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully saved firestation mappings.
-2025-01-10T09:26:27.830+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Firestation mapping for address=36 15th Street successfully deleted.
-2025-01-10T09:26:27.844+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Station number 3 found for address=1509 Culver St
-2025-01-10T09:26:27.846+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Retrieved 5 house members for address=1509 Culver St
-2025-01-10T09:26:27.860+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully fetched all firestations.
-2025-01-10T09:26:27.877+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 3 address(es) for station 1
-2025-01-10T09:26:27.878+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Retrieved flood info for 3 address(es) in station 1
-2025-01-10T09:26:27.893+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully fetched extracted firestations.
-2025-01-10T09:26:27.893+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Updating firestation number for address=36 15th Street to station=58
-2025-01-10T09:26:27.897+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully saved firestation mappings.
-2025-01-10T09:26:27.906+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 0 addresses for stationNumber 99
-2025-01-10T09:26:27.906+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : No addresses found for stationNumber 99
-2025-01-10T09:26:27.922+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 3 addresses for stationNumber 1
-2025-01-10T09:26:27.925+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 5 adults and 1 children for stationNumber 1
-2025-01-10T09:26:27.936+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 3 address(es) for firestation 2
-2025-01-10T09:26:27.937+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Retrieved 4 unique phone number(s) for firestation 2
-2025-01-10T09:26:28.313+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully fetched all firestations.
-2025-01-10T09:26:28.331+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Firestation mapping found for address=5 impasse sans fin, deleting...
-2025-01-10T09:26:28.333+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully saved firestation mappings.
-2025-01-10T09:26:28.333+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Firestation mapping for address=5 impasse sans fin successfully deleted.
-2025-01-10T09:26:28.339+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Firestation mapping added: com.project.SafetyNet.model.Firestations@2b4a0be0
-2025-01-10T09:26:28.340+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully saved firestation mappings.
-2025-01-10T09:26:28.363+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully fetched extracted firestations.
-2025-01-10T09:26:28.364+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Updating firestation number for address=12bis boulevard de la rue to station=3
-2025-01-10T09:26:28.364+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Successfully saved firestation mappings.
-2025-01-10T09:26:28.369+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 1 addresses for stationNumber 1
-2025-01-10T09:26:28.370+01:00  INFO 18248 --- [SafetyNet] [main] c.p.S.service.FirestationsService        : Found 1 adults and 1 children for stationNumber 1
+2025-01-16T20:08:51.175+01:00  INFO 23768 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Starting SafetyNetApplication using Java 21.0.4 with PID 23768 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16T20:08:51.191+01:00  INFO 23768 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-01-16T20:08:52.325+01:00  INFO 23768 --- [SafetyNet] [main] c.p.SafetyNet.SafetyNetApplication       : Started SafetyNetApplication in 1.448 seconds (process running for 2.064)
+2025-01-16T20:11:34.406+01:00  INFO 12688 --- [SafetyNet] [main] c.p.S.SafetyNetApplication               : Starting SafetyNetApplication using Java 21.0.4 with PID 12688 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16T20:11:34.413+01:00  INFO 12688 --- [SafetyNet] [main] c.p.S.SafetyNetApplication               : No active profile set, falling back to 1 default profile: "default"
+2025-01-16T20:11:35.389+01:00  INFO 12688 --- [SafetyNet] [main] c.p.S.SafetyNetApplication               : Started SafetyNetApplication in 1.353 seconds (process running for 2.128)
+2025-01-16 20:17:34 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 12496 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:17:34 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:17:35 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.196 seconds (process running for 2.0)
+2025-01-16 20:18:13 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 20:18:13 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 20:18:14 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 24340 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:18:14 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:18:15 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.609 seconds (process running for 4.006)
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Firestation mapping added: com.project.SafetyNet.model.Firestations@329e6700
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Successfully saved firestation mappings.
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Firestation mapping found for address=36 15th Street, deleting...
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Successfully saved firestation mappings.
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Firestation mapping for address=36 15th Street successfully deleted.
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Station number 3 found for address=1509 Culver St
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Retrieved 5 house members for address=1509 Culver St
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Starting method getAllFirestations
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Successfully fetched all firestations.
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Found 3 address(es) for station 1
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Retrieved flood info for 3 address(es) in station 1
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Successfully fetched extracted firestations.
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Updating firestation number for address=36 15th Street to station=58
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Successfully saved firestation mappings.
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Found 0 addresses for stationNumber 99
+2025-01-16 20:18:17 [main] INFO  FirestationsService - No addresses found for stationNumber 99
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Found 3 addresses for stationNumber 1
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Found 5 adults and 1 children for stationNumber 1
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Found 3 address(es) for firestation 2
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Retrieved 4 unique phone number(s) for firestation 2
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Starting method getAllFirestations
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Successfully fetched all firestations.
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Firestation mapping found for address=5 impasse sans fin, deleting...
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Successfully saved firestation mappings.
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Firestation mapping for address=5 impasse sans fin successfully deleted.
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Firestation mapping added: com.project.SafetyNet.model.Firestations@2081b4a8
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Successfully saved firestation mappings.
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Successfully fetched extracted firestations.
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Updating firestation number for address=12bis boulevard de la rue to station=3
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Successfully saved firestation mappings.
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Found 1 addresses for stationNumber 1
+2025-01-16 20:18:17 [main] INFO  FirestationsService - Found 1 adults and 1 children for stationNumber 1
+2025-01-16 20:30:58 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 9416 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:30:58 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:30:58 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.083 seconds (process running for 1.804)
+2025-01-16 20:31:11 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 20:31:11 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 20:31:12 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 22040 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:31:12 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:31:13 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.435 seconds (process running for 3.506)
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@eba3009
+2025-01-16 20:31:14 [main] INFO  success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@eba3009
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=22
+2025-01-16 20:31:14 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method deleteFirestationMapping with address=36 15th Street
+2025-01-16 20:31:14 [main] INFO  success - Found firestation mapping for address=36 15th Street, deleting...
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-16 20:31:14 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:31:14 [main] INFO  success - Successfully deleted firestation mapping for address=36 15th Street.
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method getHouseMembersAndFirestationByAddress with address=1509 Culver St
+2025-01-16 20:31:14 [main] DEBUG debug - Fetching data from JSON...
+2025-01-16 20:31:14 [main] DEBUG debug - Finding station number for address=1509 Culver St
+2025-01-16 20:31:14 [main] INFO  success - Station number 3 found for address=1509 Culver St
+2025-01-16 20:31:14 [main] DEBUG debug - Getting house members for address=1509 Culver St
+2025-01-16 20:31:14 [main] INFO  success - Retrieved 5 house members for address=1509 Culver St
+2025-01-16 20:31:14 [main] DEBUG debug - Starting execution of method getAllFirestations.
+2025-01-16 20:31:14 [main] INFO  success - Successfully retrieved all firestations.
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method getFloodInfoByStation with station=1
+2025-01-16 20:31:14 [main] DEBUG debug - Fetching data from JSON...
+2025-01-16 20:31:14 [main] DEBUG debug - Finding addresses for station=1
+2025-01-16 20:31:14 [main] INFO  success - Found 3 address(es) for station 1
+2025-01-16 20:31:14 [main] DEBUG debug - Fetching residents for address=644 Gershwin Cir
+2025-01-16 20:31:14 [main] DEBUG debug - Fetching residents for address=908 73rd St
+2025-01-16 20:31:14 [main] DEBUG debug - Fetching residents for address=947 E. Rose Dr
+2025-01-16 20:31:14 [main] INFO  success - Retrieved flood info for 3 address(es) in station 1
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@6aa09c35
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-16 20:31:14 [main] INFO  success - Successfully fetched 21 firestations from the JSON file.
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@6aa09c35
+2025-01-16 20:31:14 [main] INFO  success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@7a9794bd
+2025-01-16 20:31:14 [main] INFO  success - Updated firestation number for address=36 15th Street to station=58
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-16 20:31:14 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=99
+2025-01-16 20:31:14 [main] INFO  success - Found 0 addresses for stationNumber 99
+2025-01-16 20:31:14 [main] INFO  success - No addresses found for stationNumber 99
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-16 20:31:14 [main] INFO  success - Found 3 addresses for stationNumber 1
+2025-01-16 20:31:14 [main] INFO  success - Found 5 adults and 1 children for stationNumber 1
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method getPhoneByFirestationNumber with firestation=2
+2025-01-16 20:31:14 [main] DEBUG debug - Fetching firestations from JSON...
+2025-01-16 20:31:14 [main] INFO  success - Found 3 address(es) for firestation 2
+2025-01-16 20:31:14 [main] DEBUG debug - Fetching persons from JSON...
+2025-01-16 20:31:14 [main] INFO  success - Retrieved 4 unique phone number(s) for firestation 2
+2025-01-16 20:31:14 [main] DEBUG debug - Starting execution of method getAllFirestations.
+2025-01-16 20:31:14 [main] INFO  success - Successfully retrieved all firestations.
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method deleteFirestationMapping with address=5 impasse sans fin
+2025-01-16 20:31:14 [main] INFO  success - Found firestation mapping for address=5 impasse sans fin, deleting...
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=0
+2025-01-16 20:31:14 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:31:14 [main] INFO  success - Successfully deleted firestation mapping for address=5 impasse sans fin.
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@1c584c7f
+2025-01-16 20:31:14 [main] INFO  success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@1c584c7f
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=2
+2025-01-16 20:31:14 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@3e2d5b6
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-16 20:31:14 [main] INFO  success - Successfully fetched 1 firestations from the JSON file.
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@3e2d5b6
+2025-01-16 20:31:14 [main] INFO  success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@25618246
+2025-01-16 20:31:14 [main] INFO  success - Updated firestation number for address=12bis boulevard de la rue to station=3
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=1
+2025-01-16 20:31:14 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:31:14 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-16 20:31:14 [main] INFO  success - Found 1 addresses for stationNumber 1
+2025-01-16 20:31:14 [main] INFO  success - Found 1 adults and 1 children for stationNumber 1
+2025-01-16 20:38:56 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 31548 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:38:56 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:38:56 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.039 seconds (process running for 1.792)
+2025-01-16 20:39:10 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 20:39:11 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 20:39:11 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 37516 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:39:11 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:39:12 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.575 seconds (process running for 3.787)
+2025-01-16 20:39:13 [main] DEBUG debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@a41434b
+2025-01-16 20:39:14 [main] INFO  success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@a41434b
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=22
+2025-01-16 20:39:14 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method deleteFirestationMapping with address=36 15th Street
+2025-01-16 20:39:14 [main] INFO  success - Found firestation mapping for address=36 15th Street, deleting...
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-16 20:39:14 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:39:14 [main] INFO  success - Successfully deleted firestation mapping for address=36 15th Street.
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method getHouseMembersAndFirestationByAddress with address=1509 Culver St
+2025-01-16 20:39:14 [main] DEBUG debug - Fetching data from JSON...
+2025-01-16 20:39:14 [main] DEBUG debug - Finding station number for address=1509 Culver St
+2025-01-16 20:39:14 [main] INFO  success - Station number 3 found for address=1509 Culver St
+2025-01-16 20:39:14 [main] DEBUG debug - Getting house members for address=1509 Culver St
+2025-01-16 20:39:14 [main] INFO  success - Retrieved 5 house members for address=1509 Culver St
+2025-01-16 20:39:14 [main] DEBUG debug - Starting execution of method getAllFirestations.
+2025-01-16 20:39:14 [main] INFO  success - Successfully retrieved all firestations.
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method getFloodInfoByStation with station=1
+2025-01-16 20:39:14 [main] DEBUG debug - Fetching data from JSON...
+2025-01-16 20:39:14 [main] DEBUG debug - Finding addresses for station=1
+2025-01-16 20:39:14 [main] INFO  success - Found 3 address(es) for station 1
+2025-01-16 20:39:14 [main] DEBUG debug - Fetching residents for address=644 Gershwin Cir
+2025-01-16 20:39:14 [main] DEBUG debug - Fetching residents for address=908 73rd St
+2025-01-16 20:39:14 [main] DEBUG debug - Fetching residents for address=947 E. Rose Dr
+2025-01-16 20:39:14 [main] INFO  success - Retrieved flood info for 3 address(es) in station 1
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@ed37e52
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-16 20:39:14 [main] INFO  success - Successfully fetched 21 firestations from the JSON file.
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@ed37e52
+2025-01-16 20:39:14 [main] INFO  success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@74889ebe
+2025-01-16 20:39:14 [main] INFO  success - Updated firestation number for address=36 15th Street to station=58
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-16 20:39:14 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=99
+2025-01-16 20:39:14 [main] INFO  success - Found 0 addresses for stationNumber 99
+2025-01-16 20:39:14 [main] INFO  success - No addresses found for stationNumber 99
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-16 20:39:14 [main] INFO  success - Found 3 addresses for stationNumber 1
+2025-01-16 20:39:14 [main] INFO  success - Found 5 adults and 1 children for stationNumber 1
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method getPhoneByFirestationNumber with firestation=2
+2025-01-16 20:39:14 [main] DEBUG debug - Fetching firestations from JSON...
+2025-01-16 20:39:14 [main] INFO  success - Found 3 address(es) for firestation 2
+2025-01-16 20:39:14 [main] DEBUG debug - Fetching persons from JSON...
+2025-01-16 20:39:14 [main] INFO  success - Retrieved 4 unique phone number(s) for firestation 2
+2025-01-16 20:39:14 [main] DEBUG debug - Fetching all medical records
+2025-01-16 20:39:14 [main] INFO  success - Successfully retrieved 26 medical records
+2025-01-16 20:39:14 [main] DEBUG debug - Attempting to delete medical record for pat patrouille
+2025-01-16 20:39:14 [main] DEBUG debug - Saving medical records
+2025-01-16 20:39:14 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:39:14 [main] INFO  success - Successfully deleted medical record for pat
+2025-01-16 20:39:14 [main] DEBUG debug - Updating medical record for pat patrouille
+2025-01-16 20:39:14 [main] DEBUG debug - Extracting all medical records
+2025-01-16 20:39:14 [main] DEBUG debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@5ffdea7c
+2025-01-16 20:39:14 [main] INFO  success - Successfully rewritten medical record for pat
+2025-01-16 20:39:14 [main] DEBUG debug - Saving medical records
+2025-01-16 20:39:14 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:39:14 [main] INFO  success - Successfully updated medical record for pat
+2025-01-16 20:39:14 [main] DEBUG debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@296c6cc1
+2025-01-16 20:39:14 [main] DEBUG debug - Saving medical records
+2025-01-16 20:39:14 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:39:14 [main] INFO  success - Successfully added medical record for pat
+2025-01-16 20:39:14 [main] DEBUG debug - Starting execution of method getAllFirestations.
+2025-01-16 20:39:14 [main] INFO  success - Successfully retrieved all firestations.
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method deleteFirestationMapping with address=5 impasse sans fin
+2025-01-16 20:39:14 [main] INFO  success - Found firestation mapping for address=5 impasse sans fin, deleting...
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=0
+2025-01-16 20:39:14 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:39:14 [main] INFO  success - Successfully deleted firestation mapping for address=5 impasse sans fin.
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@1e55ee99
+2025-01-16 20:39:14 [main] INFO  success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@1e55ee99
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=2
+2025-01-16 20:39:14 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@4d31ff3
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-16 20:39:14 [main] INFO  success - Successfully fetched 1 firestations from the JSON file.
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@4d31ff3
+2025-01-16 20:39:14 [main] INFO  success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@2eb3e87c
+2025-01-16 20:39:14 [main] INFO  success - Updated firestation number for address=12bis boulevard de la rue to station=3
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=1
+2025-01-16 20:39:14 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:39:14 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-16 20:39:14 [main] INFO  success - Found 1 addresses for stationNumber 1
+2025-01-16 20:39:14 [main] INFO  success - Found 1 adults and 1 children for stationNumber 1
+2025-01-16 20:39:14 [main] DEBUG debug - Fetching all medical records
+2025-01-16 20:39:14 [main] INFO  success - Successfully retrieved 2 medical records
+2025-01-16 20:39:14 [main] DEBUG debug - Attempting to delete medical record for Jean Jacque
+2025-01-16 20:39:14 [main] DEBUG debug - Saving medical records
+2025-01-16 20:39:14 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:39:14 [main] INFO  success - Successfully deleted medical record for Jean
+2025-01-16 20:39:14 [main] DEBUG debug - Updating medical record for Jean Jacque
+2025-01-16 20:39:14 [main] DEBUG debug - Extracting all medical records
+2025-01-16 20:39:14 [main] DEBUG debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@3e2d5b6
+2025-01-16 20:39:14 [main] INFO  success - Successfully rewritten medical record for Jean
+2025-01-16 20:39:14 [main] DEBUG debug - Saving medical records
+2025-01-16 20:39:14 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:39:14 [main] INFO  success - Successfully updated medical record for Jean
+2025-01-16 20:39:14 [main] DEBUG debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@345b558f
+2025-01-16 20:39:14 [main] DEBUG debug - Saving medical records
+2025-01-16 20:39:14 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:39:14 [main] INFO  success - Successfully added medical record for pierre
+2025-01-16 20:40:37 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 13380 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:40:37 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:40:38 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.321 seconds (process running for 2.119)
+2025-01-16 20:41:51 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 2868 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:41:51 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:41:52 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.321 seconds (process running for 2.13)
+2025-01-16 20:42:05 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 20:42:05 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 20:42:06 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 1348 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:42:06 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:42:07 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.534 seconds (process running for 3.738)
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@41c77559
+2025-01-16 20:42:08 [main] INFO  success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@41c77559
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=22
+2025-01-16 20:42:08 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method deleteFirestationMapping with address=36 15th Street
+2025-01-16 20:42:08 [main] INFO  success - Found firestation mapping for address=36 15th Street, deleting...
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-16 20:42:08 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:42:08 [main] INFO  success - Successfully deleted firestation mapping for address=36 15th Street.
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method getHouseMembersAndFirestationByAddress with address=1509 Culver St
+2025-01-16 20:42:08 [main] DEBUG debug - Fetching data from JSON...
+2025-01-16 20:42:08 [main] DEBUG debug - Finding station number for address=1509 Culver St
+2025-01-16 20:42:08 [main] INFO  success - Station number 3 found for address=1509 Culver St
+2025-01-16 20:42:08 [main] DEBUG debug - Getting house members for address=1509 Culver St
+2025-01-16 20:42:08 [main] INFO  success - Retrieved 5 house members for address=1509 Culver St
+2025-01-16 20:42:08 [main] DEBUG debug - Starting execution of method getAllFirestations.
+2025-01-16 20:42:08 [main] INFO  success - Successfully retrieved all firestations.
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method getFloodInfoByStation with station=1
+2025-01-16 20:42:08 [main] DEBUG debug - Fetching data from JSON...
+2025-01-16 20:42:08 [main] DEBUG debug - Finding addresses for station=1
+2025-01-16 20:42:08 [main] INFO  success - Found 3 address(es) for station 1
+2025-01-16 20:42:08 [main] DEBUG debug - Fetching residents for address=644 Gershwin Cir
+2025-01-16 20:42:08 [main] DEBUG debug - Fetching residents for address=908 73rd St
+2025-01-16 20:42:08 [main] DEBUG debug - Fetching residents for address=947 E. Rose Dr
+2025-01-16 20:42:08 [main] INFO  success - Retrieved flood info for 3 address(es) in station 1
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@30ab1b4f
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-16 20:42:08 [main] INFO  success - Successfully fetched 21 firestations from the JSON file.
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@30ab1b4f
+2025-01-16 20:42:08 [main] INFO  success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@5a9bb7dd
+2025-01-16 20:42:08 [main] INFO  success - Updated firestation number for address=36 15th Street to station=58
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-16 20:42:08 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=99
+2025-01-16 20:42:08 [main] INFO  success - Found 0 addresses for stationNumber 99
+2025-01-16 20:42:08 [main] INFO  success - No addresses found for stationNumber 99
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-16 20:42:08 [main] INFO  success - Found 3 addresses for stationNumber 1
+2025-01-16 20:42:08 [main] INFO  success - Found 5 adults and 1 children for stationNumber 1
+2025-01-16 20:42:08 [main] DEBUG debug - Starting method getPhoneByFirestationNumber with firestation=2
+2025-01-16 20:42:08 [main] DEBUG debug - Fetching firestations from JSON...
+2025-01-16 20:42:08 [main] INFO  success - Found 3 address(es) for firestation 2
+2025-01-16 20:42:08 [main] DEBUG debug - Fetching persons from JSON...
+2025-01-16 20:42:08 [main] INFO  success - Retrieved 4 unique phone number(s) for firestation 2
+2025-01-16 20:42:09 [main] DEBUG debug - Fetching all medical records
+2025-01-16 20:42:09 [main] INFO  success - Successfully retrieved 26 medical records
+2025-01-16 20:42:09 [main] DEBUG debug - Attempting to delete medical record for pat patrouille
+2025-01-16 20:42:09 [main] DEBUG debug - Saving medical records
+2025-01-16 20:42:09 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:42:09 [main] INFO  success - Successfully deleted medical record for pat
+2025-01-16 20:42:09 [main] DEBUG debug - Updating medical record for pat patrouille
+2025-01-16 20:42:09 [main] DEBUG debug - Extracting all medical records
+2025-01-16 20:42:09 [main] DEBUG debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@1205d422
+2025-01-16 20:42:09 [main] INFO  success - Successfully rewritten medical record for pat
+2025-01-16 20:42:09 [main] DEBUG debug - Saving medical records
+2025-01-16 20:42:09 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:42:09 [main] INFO  success - Successfully updated medical record for pat
+2025-01-16 20:42:09 [main] DEBUG debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@34c83eb0
+2025-01-16 20:42:09 [main] DEBUG debug - Saving medical records
+2025-01-16 20:42:09 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:42:09 [main] INFO  success - Successfully added medical record for pat
+2025-01-16 20:42:09 [main] DEBUG debug - Starting execution of method getAllFirestations.
+2025-01-16 20:42:09 [main] INFO  success - Successfully retrieved all firestations.
+2025-01-16 20:42:09 [main] DEBUG debug - Starting method deleteFirestationMapping with address=5 impasse sans fin
+2025-01-16 20:42:09 [main] INFO  success - Found firestation mapping for address=5 impasse sans fin, deleting...
+2025-01-16 20:42:09 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=0
+2025-01-16 20:42:09 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:42:09 [main] INFO  success - Successfully deleted firestation mapping for address=5 impasse sans fin.
+2025-01-16 20:42:09 [main] DEBUG debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@1db8ec3
+2025-01-16 20:42:09 [main] INFO  success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@1db8ec3
+2025-01-16 20:42:09 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=2
+2025-01-16 20:42:09 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:42:09 [main] DEBUG debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@18d87207
+2025-01-16 20:42:09 [main] DEBUG debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-16 20:42:09 [main] INFO  success - Successfully fetched 1 firestations from the JSON file.
+2025-01-16 20:42:09 [main] DEBUG debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@18d87207
+2025-01-16 20:42:09 [main] INFO  success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@2d9c3a0e
+2025-01-16 20:42:09 [main] INFO  success - Updated firestation number for address=12bis boulevard de la rue to station=3
+2025-01-16 20:42:09 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=1
+2025-01-16 20:42:09 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:42:09 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-16 20:42:09 [main] INFO  success - Found 1 addresses for stationNumber 1
+2025-01-16 20:42:09 [main] INFO  success - Found 1 adults and 1 children for stationNumber 1
+2025-01-16 20:42:09 [main] DEBUG debug - Fetching all medical records
+2025-01-16 20:42:09 [main] INFO  success - Successfully retrieved 2 medical records
+2025-01-16 20:42:09 [main] DEBUG debug - Attempting to delete medical record for Jean Jacque
+2025-01-16 20:42:09 [main] DEBUG debug - Saving medical records
+2025-01-16 20:42:09 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:42:09 [main] INFO  success - Successfully deleted medical record for Jean
+2025-01-16 20:42:09 [main] DEBUG debug - Updating medical record for Jean Jacque
+2025-01-16 20:42:09 [main] DEBUG debug - Extracting all medical records
+2025-01-16 20:42:09 [main] DEBUG debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@7bc1ae33
+2025-01-16 20:42:09 [main] INFO  success - Successfully rewritten medical record for Jean
+2025-01-16 20:42:09 [main] DEBUG debug - Saving medical records
+2025-01-16 20:42:09 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:42:09 [main] INFO  success - Successfully updated medical record for Jean
+2025-01-16 20:42:09 [main] DEBUG debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@57bfaa41
+2025-01-16 20:42:09 [main] DEBUG debug - Saving medical records
+2025-01-16 20:42:09 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:42:09 [main] INFO  success - Successfully added medical record for pierre
+2025-01-16 20:48:41 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 25452 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:48:41 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:48:42 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.068 seconds (process running for 1.812)
+2025-01-16 20:48:55 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 20:48:56 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 20:48:56 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 30340 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:48:56 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:48:57 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.568 seconds (process running for 3.742)
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@a41434b
+2025-01-16 20:48:59 [main] INFO  success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@a41434b
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=22
+2025-01-16 20:48:59 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method deleteFirestationMapping with address=36 15th Street
+2025-01-16 20:48:59 [main] INFO  success - Found firestation mapping for address=36 15th Street, deleting...
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-16 20:48:59 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:48:59 [main] INFO  success - Successfully deleted firestation mapping for address=36 15th Street.
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method getHouseMembersAndFirestationByAddress with address=1509 Culver St
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching data from JSON...
+2025-01-16 20:48:59 [main] DEBUG debug - Finding station number for address=1509 Culver St
+2025-01-16 20:48:59 [main] INFO  success - Station number 3 found for address=1509 Culver St
+2025-01-16 20:48:59 [main] DEBUG debug - Getting house members for address=1509 Culver St
+2025-01-16 20:48:59 [main] INFO  success - Retrieved 5 house members for address=1509 Culver St
+2025-01-16 20:48:59 [main] DEBUG debug - Starting execution of method getAllFirestations.
+2025-01-16 20:48:59 [main] INFO  success - Successfully retrieved all firestations.
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method getFloodInfoByStation with station=1
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching data from JSON...
+2025-01-16 20:48:59 [main] DEBUG debug - Finding addresses for station=1
+2025-01-16 20:48:59 [main] INFO  success - Found 3 address(es) for station 1
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching residents for address=644 Gershwin Cir
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching residents for address=908 73rd St
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching residents for address=947 E. Rose Dr
+2025-01-16 20:48:59 [main] INFO  success - Retrieved flood info for 3 address(es) in station 1
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@ed37e52
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-16 20:48:59 [main] INFO  success - Successfully fetched 21 firestations from the JSON file.
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@ed37e52
+2025-01-16 20:48:59 [main] INFO  success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@74889ebe
+2025-01-16 20:48:59 [main] INFO  success - Updated firestation number for address=36 15th Street to station=58
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-16 20:48:59 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=99
+2025-01-16 20:48:59 [main] INFO  success - Found 0 addresses for stationNumber 99
+2025-01-16 20:48:59 [main] INFO  success - No addresses found for stationNumber 99
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-16 20:48:59 [main] INFO  success - Found 3 addresses for stationNumber 1
+2025-01-16 20:48:59 [main] INFO  success - Found 5 adults and 1 children for stationNumber 1
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method getPhoneByFirestationNumber with firestation=2
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching firestations from JSON...
+2025-01-16 20:48:59 [main] INFO  success - Found 3 address(es) for firestation 2
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching persons from JSON...
+2025-01-16 20:48:59 [main] INFO  success - Retrieved 4 unique phone number(s) for firestation 2
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching all medical records
+2025-01-16 20:48:59 [main] INFO  success - Successfully retrieved 26 medical records
+2025-01-16 20:48:59 [main] DEBUG debug - Attempting to delete medical record for pat patrouille
+2025-01-16 20:48:59 [main] DEBUG debug - Saving medical records
+2025-01-16 20:48:59 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:48:59 [main] INFO  success - Successfully deleted medical record for pat
+2025-01-16 20:48:59 [main] DEBUG debug - Updating medical record for pat patrouille
+2025-01-16 20:48:59 [main] DEBUG debug - Extracting all medical records
+2025-01-16 20:48:59 [main] DEBUG debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@5ffdea7c
+2025-01-16 20:48:59 [main] INFO  success - Successfully rewritten medical record for pat
+2025-01-16 20:48:59 [main] DEBUG debug - Saving medical records
+2025-01-16 20:48:59 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:48:59 [main] INFO  success - Successfully updated medical record for pat
+2025-01-16 20:48:59 [main] DEBUG debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@296c6cc1
+2025-01-16 20:48:59 [main] DEBUG debug - Saving medical records
+2025-01-16 20:48:59 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:48:59 [main] INFO  success - Successfully added medical record for pat
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching child alerts for address: 892 Downing Ct
+2025-01-16 20:48:59 [main] INFO  success - Successfully retrieved 1 child alerts for address 892 Downing Ct
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching all persons
+2025-01-16 20:48:59 [main] INFO  success - Successfully retrieved 24 persons.
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching person info by last name: cooper
+2025-01-16 20:48:59 [main] INFO  success - Successfully retrieved 2 person info entries for last name cooper
+2025-01-16 20:48:59 [main] DEBUG debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-16 20:48:59 [main] DEBUG debug - Extracting all persons
+2025-01-16 20:48:59 [main] DEBUG debug - Updating fields for person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-16 20:48:59 [main] INFO  success - Successfully updated fields for person Ber Nadette
+2025-01-16 20:48:59 [main] DEBUG debug - Saving person data
+2025-01-16 20:48:59 [main] INFO  success - Successfully saved all person data.
+2025-01-16 20:48:59 [main] INFO  success - Successfully updated person Ber Nadette
+2025-01-16 20:48:59 [main] DEBUG debug - Attempting to delete person Ber Nadette
+2025-01-16 20:48:59 [main] DEBUG debug - Saving person data
+2025-01-16 20:48:59 [main] INFO  success - Successfully saved all person data.
+2025-01-16 20:48:59 [main] INFO  success - Successfully deleted person Ber Nadette
+2025-01-16 20:48:59 [main] DEBUG debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-16 20:48:59 [main] DEBUG debug - Saving person data
+2025-01-16 20:48:59 [main] INFO  success - Successfully saved all person data.
+2025-01-16 20:48:59 [main] INFO  success - Successfully added person Ber Nadette
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching emails for city: pasici
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching all persons
+2025-01-16 20:48:59 [main] INFO  success - Successfully retrieved 24 persons.
+2025-01-16 20:48:59 [main] INFO  success - Successfully retrieved 1 emails for city pasici
+2025-01-16 20:48:59 [main] DEBUG debug - Starting execution of method getAllFirestations.
+2025-01-16 20:48:59 [main] INFO  success - Successfully retrieved all firestations.
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method deleteFirestationMapping with address=5 impasse sans fin
+2025-01-16 20:48:59 [main] INFO  success - Found firestation mapping for address=5 impasse sans fin, deleting...
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=0
+2025-01-16 20:48:59 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:48:59 [main] INFO  success - Successfully deleted firestation mapping for address=5 impasse sans fin.
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@1c584c7f
+2025-01-16 20:48:59 [main] INFO  success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@1c584c7f
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=2
+2025-01-16 20:48:59 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@3e2d5b6
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-16 20:48:59 [main] INFO  success - Successfully fetched 1 firestations from the JSON file.
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@3e2d5b6
+2025-01-16 20:48:59 [main] INFO  success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@25618246
+2025-01-16 20:48:59 [main] INFO  success - Updated firestation number for address=12bis boulevard de la rue to station=3
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=1
+2025-01-16 20:48:59 [main] INFO  success - Firestation mappings have been successfully saved.
+2025-01-16 20:48:59 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-16 20:48:59 [main] INFO  success - Found 1 addresses for stationNumber 1
+2025-01-16 20:48:59 [main] INFO  success - Found 1 adults and 1 children for stationNumber 1
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching all medical records
+2025-01-16 20:48:59 [main] INFO  success - Successfully retrieved 2 medical records
+2025-01-16 20:48:59 [main] DEBUG debug - Attempting to delete medical record for Jean Jacque
+2025-01-16 20:48:59 [main] DEBUG debug - Saving medical records
+2025-01-16 20:48:59 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:48:59 [main] INFO  success - Successfully deleted medical record for Jean
+2025-01-16 20:48:59 [main] DEBUG debug - Updating medical record for Jean Jacque
+2025-01-16 20:48:59 [main] DEBUG debug - Extracting all medical records
+2025-01-16 20:48:59 [main] DEBUG debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@30e9f28
+2025-01-16 20:48:59 [main] INFO  success - Successfully rewritten medical record for Jean
+2025-01-16 20:48:59 [main] DEBUG debug - Saving medical records
+2025-01-16 20:48:59 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:48:59 [main] INFO  success - Successfully updated medical record for Jean
+2025-01-16 20:48:59 [main] DEBUG debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@76a756f
+2025-01-16 20:48:59 [main] DEBUG debug - Saving medical records
+2025-01-16 20:48:59 [main] INFO  success - Successfully saved all medical records.
+2025-01-16 20:48:59 [main] INFO  success - Successfully added medical record for pierre
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching all persons
+2025-01-16 20:48:59 [main] INFO  success - Successfully retrieved 2 persons.
+2025-01-16 20:48:59 [main] DEBUG debug - Updating person: Person(firstName=Jean, lastName=Jacque, address=456 Oak St, city=null, zip=null, phone=null, email=null)
+2025-01-16 20:48:59 [main] DEBUG debug - Extracting all persons
+2025-01-16 20:48:59 [main] DEBUG debug - Updating fields for person: Person(firstName=Jean, lastName=Jacque, address=123 Main St, city=null, zip=null, phone=null, email=null)
+2025-01-16 20:48:59 [main] INFO  success - Successfully updated fields for person Jean Jacque
+2025-01-16 20:48:59 [main] DEBUG debug - Saving person data
+2025-01-16 20:48:59 [main] INFO  success - Successfully saved all person data.
+2025-01-16 20:48:59 [main] INFO  success - Successfully updated person Jean Jacque
+2025-01-16 20:48:59 [main] DEBUG debug - Attempting to delete person Jean Jacque
+2025-01-16 20:48:59 [main] DEBUG debug - Saving person data
+2025-01-16 20:48:59 [main] INFO  success - Successfully saved all person data.
+2025-01-16 20:48:59 [main] INFO  success - Successfully deleted person Jean Jacque
+2025-01-16 20:48:59 [main] DEBUG debug - Adding new person: Person(firstName=Jean, lastName=Jacque, address=null, city=null, zip=null, phone=null, email=null)
+2025-01-16 20:48:59 [main] DEBUG debug - Saving person data
+2025-01-16 20:48:59 [main] INFO  success - Successfully saved all person data.
+2025-01-16 20:48:59 [main] INFO  success - Successfully added person Jean Jacque
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching emails for city: grenoble
+2025-01-16 20:48:59 [main] DEBUG debug - Fetching all persons
+2025-01-16 20:48:59 [main] INFO  success - Successfully retrieved 2 persons.
+2025-01-16 20:48:59 [main] INFO  success - Successfully retrieved 2 emails for city grenoble
+2025-01-16 20:56:50 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 23588 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:56:50 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:56:51 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.133 seconds (process running for 1.917)
+2025-01-16 20:57:02 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 20:57:02 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 20:57:03 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 36252 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:57:03 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:57:04 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.467 seconds (process running for 3.539)
+2025-01-16 20:59:26 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 28616 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:59:26 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:59:27 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.036 seconds (process running for 1.793)
+2025-01-16 20:59:38 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 20:59:38 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 20:59:38 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 33548 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 20:59:38 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 20:59:39 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.42 seconds (process running for 3.441)
+2025-01-16 20:59:40 [main] DEBUG debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@eba3009
+2025-01-16 20:59:40 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=22
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method deleteFirestationMapping with address=36 15th Street
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method getHouseMembersAndFirestationByAddress with address=1509 Culver St
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching data from JSON...
+2025-01-16 20:59:41 [main] DEBUG debug - Finding station number for address=1509 Culver St
+2025-01-16 20:59:41 [main] DEBUG debug - Getting house members for address=1509 Culver St
+2025-01-16 20:59:41 [main] DEBUG debug - Starting execution of method getAllFirestations.
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method getFloodInfoByStation with station=1
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching data from JSON...
+2025-01-16 20:59:41 [main] DEBUG debug - Finding addresses for station=1
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching residents for address=644 Gershwin Cir
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching residents for address=908 73rd St
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching residents for address=947 E. Rose Dr
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@6aa09c35
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@6aa09c35
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=99
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method getPhoneByFirestationNumber with firestation=2
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching firestations from JSON...
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching persons from JSON...
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching all medical records
+2025-01-16 20:59:41 [main] DEBUG debug - Attempting to delete medical record for pat patrouille
+2025-01-16 20:59:41 [main] DEBUG debug - Saving medical records
+2025-01-16 20:59:41 [main] DEBUG debug - Updating medical record for pat patrouille
+2025-01-16 20:59:41 [main] DEBUG debug - Extracting all medical records
+2025-01-16 20:59:41 [main] DEBUG debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@1c32c581
+2025-01-16 20:59:41 [main] DEBUG debug - Saving medical records
+2025-01-16 20:59:41 [main] DEBUG debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@38657ca8
+2025-01-16 20:59:41 [main] DEBUG debug - Saving medical records
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching child alerts for address: 892 Downing Ct
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching all persons
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching person info by last name: cooper
+2025-01-16 20:59:41 [main] DEBUG debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-16 20:59:41 [main] DEBUG debug - Extracting all persons
+2025-01-16 20:59:41 [main] DEBUG debug - Updating fields for person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-16 20:59:41 [main] DEBUG debug - Saving person data
+2025-01-16 20:59:41 [main] DEBUG debug - Attempting to delete person Ber Nadette
+2025-01-16 20:59:41 [main] DEBUG debug - Saving person data
+2025-01-16 20:59:41 [main] DEBUG debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-16 20:59:41 [main] DEBUG debug - Saving person data
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching emails for city: pasici
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching all persons
+2025-01-16 20:59:41 [main] DEBUG debug - Starting execution of method getAllFirestations.
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method deleteFirestationMapping with address=5 impasse sans fin
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=0
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@17c158ca
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=2
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@3220ea38
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@3220ea38
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=1
+2025-01-16 20:59:41 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching all medical records
+2025-01-16 20:59:41 [main] DEBUG debug - Attempting to delete medical record for Jean Jacque
+2025-01-16 20:59:41 [main] DEBUG debug - Saving medical records
+2025-01-16 20:59:41 [main] DEBUG debug - Updating medical record for Jean Jacque
+2025-01-16 20:59:41 [main] DEBUG debug - Extracting all medical records
+2025-01-16 20:59:41 [main] DEBUG debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@2859b9e6
+2025-01-16 20:59:41 [main] DEBUG debug - Saving medical records
+2025-01-16 20:59:41 [main] DEBUG debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@4a45042a
+2025-01-16 20:59:41 [main] DEBUG debug - Saving medical records
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching all persons
+2025-01-16 20:59:41 [main] DEBUG debug - Updating person: Person(firstName=Jean, lastName=Jacque, address=456 Oak St, city=null, zip=null, phone=null, email=null)
+2025-01-16 20:59:41 [main] DEBUG debug - Extracting all persons
+2025-01-16 20:59:41 [main] DEBUG debug - Updating fields for person: Person(firstName=Jean, lastName=Jacque, address=123 Main St, city=null, zip=null, phone=null, email=null)
+2025-01-16 20:59:41 [main] DEBUG debug - Saving person data
+2025-01-16 20:59:41 [main] DEBUG debug - Attempting to delete person Jean Jacque
+2025-01-16 20:59:41 [main] DEBUG debug - Saving person data
+2025-01-16 20:59:41 [main] DEBUG debug - Adding new person: Person(firstName=Jean, lastName=Jacque, address=null, city=null, zip=null, phone=null, email=null)
+2025-01-16 20:59:41 [main] DEBUG debug - Saving person data
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching emails for city: grenoble
+2025-01-16 20:59:41 [main] DEBUG debug - Fetching all persons
+2025-01-16 21:00:38 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 17708 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:00:38 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:00:39 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.09 seconds (process running for 1.859)
+2025-01-16 21:00:50 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 24404 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:00:50 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:00:51 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.13 seconds (process running for 1.89)
+2025-01-16 21:01:04 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:01:04 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:01:05 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 35976 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:01:05 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:01:06 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.426 seconds (process running for 3.545)
+2025-01-16 21:01:07 [main] DEBUG debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@6afafa48
+2025-01-16 21:01:07 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=22
+2025-01-16 21:01:07 [main] DEBUG debug - Starting method deleteFirestationMapping with address=36 15th Street
+2025-01-16 21:01:07 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-16 21:01:07 [main] DEBUG debug - Starting method getHouseMembersAndFirestationByAddress with address=1509 Culver St
+2025-01-16 21:01:07 [main] DEBUG debug - Fetching data from JSON...
+2025-01-16 21:01:07 [main] DEBUG debug - Finding station number for address=1509 Culver St
+2025-01-16 21:01:07 [main] DEBUG debug - Getting house members for address=1509 Culver St
+2025-01-16 21:01:07 [main] DEBUG debug - Starting execution of method getAllFirestations.
+2025-01-16 21:01:07 [main] DEBUG debug - Starting method getFloodInfoByStation with station=1
+2025-01-16 21:01:07 [main] DEBUG debug - Fetching data from JSON...
+2025-01-16 21:01:07 [main] DEBUG debug - Finding addresses for station=1
+2025-01-16 21:01:07 [main] DEBUG debug - Fetching residents for address=644 Gershwin Cir
+2025-01-16 21:01:07 [main] DEBUG debug - Fetching residents for address=908 73rd St
+2025-01-16 21:01:07 [main] DEBUG debug - Fetching residents for address=947 E. Rose Dr
+2025-01-16 21:01:07 [main] DEBUG debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@7116f350
+2025-01-16 21:01:07 [main] DEBUG debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-16 21:01:07 [main] DEBUG debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@7116f350
+2025-01-16 21:01:07 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-16 21:01:08 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=99
+2025-01-16 21:01:08 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-16 21:01:08 [main] DEBUG debug - Starting method getPhoneByFirestationNumber with firestation=2
+2025-01-16 21:01:08 [main] DEBUG debug - Fetching firestations from JSON...
+2025-01-16 21:01:08 [main] DEBUG debug - Fetching persons from JSON...
+2025-01-16 21:01:08 [main] DEBUG debug - Fetching all medical records
+2025-01-16 21:01:08 [main] DEBUG debug - Attempting to delete medical record for pat patrouille
+2025-01-16 21:01:08 [main] DEBUG debug - Saving medical records
+2025-01-16 21:01:08 [main] DEBUG debug - Updating medical record for pat patrouille
+2025-01-16 21:01:08 [main] DEBUG debug - Extracting all medical records
+2025-01-16 21:01:08 [main] DEBUG debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@148b13e5
+2025-01-16 21:01:08 [main] DEBUG debug - Saving medical records
+2025-01-16 21:01:08 [main] DEBUG debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@162304e3
+2025-01-16 21:01:08 [main] DEBUG debug - Saving medical records
+2025-01-16 21:01:08 [main] DEBUG debug - Fetching child alerts for address: 892 Downing Ct
+2025-01-16 21:01:08 [main] DEBUG debug - Fetching all persons
+2025-01-16 21:01:08 [main] DEBUG debug - Fetching person info by last name: cooper
+2025-01-16 21:01:08 [main] DEBUG debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-16 21:01:08 [main] DEBUG debug - Extracting all persons
+2025-01-16 21:01:08 [main] DEBUG debug - Updating fields for person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-16 21:01:08 [main] DEBUG debug - Saving person data
+2025-01-16 21:01:08 [main] DEBUG debug - Attempting to delete person Ber Nadette
+2025-01-16 21:01:08 [main] DEBUG debug - Saving person data
+2025-01-16 21:01:08 [main] DEBUG debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-16 21:01:08 [main] DEBUG debug - Saving person data
+2025-01-16 21:01:08 [main] DEBUG debug - Fetching emails for city: pasici
+2025-01-16 21:01:08 [main] DEBUG debug - Fetching all persons
+2025-01-16 21:01:08 [main] DEBUG debug - Starting execution of method getAllFirestations.
+2025-01-16 21:01:08 [main] DEBUG debug - Starting method deleteFirestationMapping with address=5 impasse sans fin
+2025-01-16 21:01:08 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=0
+2025-01-16 21:01:08 [main] DEBUG debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@5ddc735b
+2025-01-16 21:01:08 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=2
+2025-01-16 21:01:08 [main] DEBUG debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@65a124a
+2025-01-16 21:01:08 [main] DEBUG debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-16 21:01:08 [main] DEBUG debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@65a124a
+2025-01-16 21:01:08 [main] DEBUG debug - Starting method saveFirestationMapping with firestations size=1
+2025-01-16 21:01:08 [main] DEBUG debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-16 21:01:08 [main] DEBUG debug - Fetching all medical records
+2025-01-16 21:01:08 [main] DEBUG debug - Attempting to delete medical record for Jean Jacque
+2025-01-16 21:01:08 [main] DEBUG debug - Saving medical records
+2025-01-16 21:01:08 [main] DEBUG debug - Updating medical record for Jean Jacque
+2025-01-16 21:01:08 [main] DEBUG debug - Extracting all medical records
+2025-01-16 21:01:08 [main] DEBUG debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@2eb3e87c
+2025-01-16 21:01:08 [main] DEBUG debug - Saving medical records
+2025-01-16 21:01:08 [main] DEBUG debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@3f79660e
+2025-01-16 21:01:08 [main] DEBUG debug - Saving medical records
+2025-01-16 21:01:08 [main] DEBUG debug - Fetching all persons
+2025-01-16 21:01:08 [main] DEBUG debug - Updating person: Person(firstName=Jean, lastName=Jacque, address=456 Oak St, city=null, zip=null, phone=null, email=null)
+2025-01-16 21:01:08 [main] DEBUG debug - Extracting all persons
+2025-01-16 21:01:08 [main] DEBUG debug - Updating fields for person: Person(firstName=Jean, lastName=Jacque, address=123 Main St, city=null, zip=null, phone=null, email=null)
+2025-01-16 21:01:08 [main] DEBUG debug - Saving person data
+2025-01-16 21:01:08 [main] DEBUG debug - Attempting to delete person Jean Jacque
+2025-01-16 21:01:08 [main] DEBUG debug - Saving person data
+2025-01-16 21:01:08 [main] DEBUG debug - Adding new person: Person(firstName=Jean, lastName=Jacque, address=null, city=null, zip=null, phone=null, email=null)
+2025-01-16 21:01:08 [main] DEBUG debug - Saving person data
+2025-01-16 21:01:08 [main] DEBUG debug - Fetching emails for city: grenoble
+2025-01-16 21:01:08 [main] DEBUG debug - Fetching all persons
+2025-01-16 21:01:30 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 17044 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:01:30 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:01:31 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.048 seconds (process running for 1.856)
+2025-01-16 21:01:42 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:01:42 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:01:43 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 27504 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:01:43 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:01:44 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.426 seconds (process running for 3.5)
+2025-01-16 21:06:44 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 11720 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:06:44 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:06:45 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.066 seconds (process running for 1.816)
+2025-01-16 21:06:55 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:06:55 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:06:56 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 14272 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:06:56 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:06:57 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.424 seconds (process running for 3.482)
+2025-01-16 21:09:25 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 26988 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:09:25 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:09:26 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.105 seconds (process running for 1.885)
+2025-01-16 21:09:37 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:09:37 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:09:38 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 8808 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:09:38 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:09:39 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.435 seconds (process running for 3.55)
+2025-01-16 21:11:43 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 17132 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:11:43 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:11:44 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.036 seconds (process running for 1.78)
+2025-01-16 21:11:55 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:11:55 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:11:56 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 29516 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:11:56 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:11:57 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.436 seconds (process running for 3.543)
+2025-01-16 21:15:29 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 22616 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:15:29 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:15:30 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.09 seconds (process running for 1.856)
+2025-01-16 21:15:40 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:15:40 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:15:40 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 35404 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:15:40 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:15:42 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.503 seconds (process running for 3.632)
+2025-01-16 21:26:18 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 25876 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:26:18 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:26:18 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.112 seconds (process running for 1.881)
+2025-01-16 21:26:28 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:26:29 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:26:29 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 3580 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:26:29 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:26:30 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.446 seconds (process running for 3.527)
+2025-01-16 21:28:56 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:28:56 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:28:57 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 28636 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:28:57 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:28:58 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.601 seconds (process running for 3.871)
+2025-01-16 21:35:32 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:35:32 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:35:33 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 35712 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:35:33 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:35:34 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.565 seconds (process running for 3.795)
+2025-01-16 21:37:05 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:37:05 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:37:05 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 28256 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:37:05 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:37:06 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.411 seconds (process running for 3.354)
+2025-01-16 21:40:40 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:40:41 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:40:41 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 15404 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:40:41 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:40:42 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.442 seconds (process running for 3.544)
+2025-01-16 21:43:20 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:43:20 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:43:21 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 17140 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:43:21 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:43:22 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.489 seconds (process running for 3.623)
+2025-01-16 21:44:48 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:44:48 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:44:48 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 5136 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:44:48 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:44:50 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.417 seconds (process running for 3.469)
+2025-01-16 21:45:15 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:45:16 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:45:16 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 23732 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:45:16 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:45:17 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.455 seconds (process running for 3.636)
+2025-01-16 21:46:41 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:46:41 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:46:42 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 11136 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:46:42 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:46:43 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.43 seconds (process running for 3.49)
+2025-01-16 21:50:23 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:50:24 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:50:24 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 8676 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:50:24 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:50:26 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.689 seconds (process running for 4.022)
+2025-01-16 21:51:54 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:51:54 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:51:55 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 7240 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:51:55 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:51:56 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.585 seconds (process running for 3.843)
+2025-01-16 21:59:47 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 21:59:47 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 21:59:48 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 13200 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 21:59:48 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 21:59:49 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.474 seconds (process running for 3.528)
+2025-01-16 22:00:13 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 22:00:13 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 22:00:14 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 26060 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 22:00:14 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 22:00:15 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.425 seconds (process running for 3.447)
+2025-01-16 22:03:09 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 22:03:09 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 22:03:09 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 1684 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 22:03:09 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 22:03:10 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.407 seconds (process running for 3.554)
+2025-01-16 22:03:33 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 22:03:34 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 22:03:34 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 25840 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 22:03:34 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 22:03:35 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.39 seconds (process running for 3.426)
+2025-01-16 22:04:51 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 22:04:51 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 22:04:52 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 29744 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 22:04:52 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 22:04:53 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.436 seconds (process running for 3.578)
+2025-01-16 22:14:43 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 22:14:43 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 22:14:44 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 11804 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 22:14:44 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 22:14:45 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.432 seconds (process running for 3.484)
+2025-01-16 22:17:41 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-16 22:17:41 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-16 22:17:42 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 20364 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-16 22:17:42 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 22:17:43 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.588 seconds (process running for 3.883)

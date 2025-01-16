@@ -64,7 +64,7 @@ public class PersonControllerIT {
 	}
 	
 	@Test
-	void testUpdatePerson() throws Exception {
+	void testUpdatePerson_whenPersonDoesExist() throws Exception {
 		Person person = new Person();
 		person.setFirstName("Ber");
 		person.setLastName("Nadette"); 
@@ -82,7 +82,25 @@ public class PersonControllerIT {
 	}
 	
 	@Test
-	void testDeletePerson() throws Exception {
+	void testUpdatePerson_whenPersonDoesNotExist() throws Exception {
+	    Person person = new Person();
+	    person.setFirstName("NonExistent");
+	    person.setLastName("Person");
+	    person.setAddress("123 Unknown St");
+	    person.setCity("Unknown City");
+	    person.setZip("00000");
+	    person.setPhone("000-000-0000");
+	    person.setEmail("nonexistent@person.com");
+
+	    mockMvc.perform(put("/person")
+	            .contentType(MediaType.APPLICATION_JSON)
+	            .content(objectMapper.writeValueAsString(person)))
+	            .andExpect(status().isNotFound()); 
+
+	}
+	
+	@Test
+	void testDeletePerson_whenPersonDoesExist() throws Exception {
 		mockMvc.perform(delete("/person") 
 				.param("firstName", "Ber")
 				.param("lastName", "Nadette"))
@@ -90,20 +108,47 @@ public class PersonControllerIT {
 	}
 	
 	@Test
-	void testGetEmailsByCity() throws Exception {
+	void testDeletePerson_whenPersonDoesNotExist() throws Exception {
+		mockMvc.perform(delete("/person") 
+				.param("firstName", "unknown")
+				.param("lastName", "unknown"))
+		.andExpect(status().isNotFound());
+	}
+	
+	@Test
+	void testGetEmailsByCity_whenCityDoesExist() throws Exception {
 		mockMvc.perform(get("/communityEmail?city=pasici"))
 		.andExpect(jsonPath("$.[0]").value("ber.nadette@email.com"));
 	}
 	
 	@Test
-	void testGetChildAlertByAddress() throws Exception {
+	void testGetEmailsByCity_whenCityDoesNotExist() throws Exception {
+		mockMvc.perform(get("/communityEmail?city=unknown town"))
+		.andExpect(status().isNoContent());
+	}
+	
+	@Test
+	void testGetChildAlertByAddress_whenAddressDoesExist() throws Exception {
 		mockMvc.perform(get("/childAlert?address=892 Downing Ct"))
 			.andExpect(jsonPath("$.[0].firstName").value("Zach"));
 	}
 	
 	@Test
-	void testGetAllPersonsInfoByLastName() throws Exception {
+	void testGetChildAlertByAddress_whenAddressDoesNotExist() throws Exception {
+		mockMvc.perform(get("/childAlert?address=unknown address"))
+		.andExpect(status().isOk()) 
+        .andExpect(jsonPath("$").isEmpty());
+	}
+	
+	@Test
+	void testGetAllPersonsInfoByLastName_whenLastNameDoesExist() throws Exception {
 		mockMvc.perform(get("/personInfo?lastName=cooper"))
 			.andExpect(jsonPath("$.[0].lastName").value("Cooper"));
+	}
+	
+	@Test
+	void testGetAllPersonsInfoByLastName_whenLastNameDoesNotExist() throws Exception {
+		mockMvc.perform(get("/personInfo?lastName=no-name"))
+		.andExpect(status().isNoContent());
 	}
 }
