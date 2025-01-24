@@ -26,6 +26,9 @@ import com.project.SafetyNet.model.Person;
 import com.project.SafetyNet.repository.JsonFileConnect;
 import com.project.SafetyNet.tool.CalculateAge;
 
+/**
+ * Service class for managing Firestations entities
+ */
 @Service
 public class FirestationsService {
 
@@ -40,6 +43,10 @@ public class FirestationsService {
 		this.jsonFileConnect = jsonFileConnect;
 	}
 	
+	/** Retrieves all firestation mappings from the data source.
+	*
+	* @return a list of {@link Firestations} objects, or {@code null} if an error occurs
+	*/
 	public List<Firestations> getAllFirestations() {
         debugLogger.debug("Starting execution of method getAllFirestations.");
         try {
@@ -52,6 +59,11 @@ public class FirestationsService {
         }
     }
 
+	 /**
+     * Saves a list of firestation mappings to the data source.
+     *
+     * @param firestations the list of firestation mappings to save
+     */
 	public void saveFirestationMapping(List<Firestations> firestations) {
         debugLogger.debug("Starting method saveFirestationMapping with firestations size={}", firestations.size());
         try {
@@ -62,6 +74,11 @@ public class FirestationsService {
         }
     }
 
+	/**
+     * Adds a new firestation mapping to the data source.
+     *
+     * @param firestation the firestation mapping to add
+     */
 	public void addFirestationMapping(Firestations firestation) {
 	    debugLogger.debug("Starting method addFirestationMapping with firestation={}", firestation);
 	    try {
@@ -74,7 +91,12 @@ public class FirestationsService {
 	    }
 	}
 
-
+	 /**
+     * Updates the firestation number for an existing firestation mapping.
+     *
+     * @param firestation the updated firestation object containing the address and new station number
+     * @return the updated {@link Firestations} object, or {@code null} if no matching firestation is found
+     */
 	public Firestations updateFirestationNumber(Firestations firestation) {
 	    debugLogger.debug("Starting method updateFirestationNumber with firestation={}", firestation);
 	    List<Firestations> firestations = extractedFirestation();
@@ -93,7 +115,13 @@ public class FirestationsService {
 	    return null;
 	}
 
-
+	/**
+	 * Updates the station number of an existing firestation mapping.
+	 *
+	 * @param firestation the new {@link Firestations} object with updated station information.
+	 * @param optionalFirestation the existing firestation to update, wrapped in an {@link Optional}.
+	 * @return the updated {@link Firestations} object, or {@code null} if no match is found.
+	 */
 	private Firestations rewriteFirestation(Firestations firestation, Optional<Firestations> optionalFirestation) {
 	    debugLogger.debug("Starting method rewriteFirestation with firestation={}", firestation);
 
@@ -109,19 +137,29 @@ public class FirestationsService {
 	    return existingFirestation;
 	}
 
-
-private List<Firestations> extractedFirestation() {
-    debugLogger.debug("Starting method extractedFirestation to retrieve all firestations.");
-    try {
-        List<Firestations> firestations = jsonFileConnect.getAllFirestations();
-        successLogger.info("Successfully fetched {} firestations from the JSON file.", firestations.size());
-        return firestations;
-    } catch (IOException e) {
-        errorLogger.error("Error extracting firestations: {}", e.getMessage(), e);
-        return Collections.emptyList();
-    }
-}
+	/**
+	 * Fetches all firestations from the JSON file.
+	 *
+	 * @return a list of {@link Firestations}, or an empty list if an error occurs.
+	 */
+	private List<Firestations> extractedFirestation() {
+	    debugLogger.debug("Starting method extractedFirestation to retrieve all firestations.");
+	    try {
+	        List<Firestations> firestations = jsonFileConnect.getAllFirestations();
+	        successLogger.info("Successfully fetched {} firestations from the JSON file.", firestations.size());
+	        return firestations;
+	    } catch (IOException e) {
+	        errorLogger.error("Error extracting firestations: {}", e.getMessage(), e);
+	        return Collections.emptyList();
+	    }
+	}
 	
+	/**
+	 * Deletes a firestation mapping by its address.
+	 *
+	 * @param address the address of the firestation mapping to delete
+	 * @return {@code true} if the firestation mapping was successfully deleted, {@code false} otherwise
+	 */
 	public boolean deleteFirestationMapping(String address) {
 	    debugLogger.debug("Starting method deleteFirestationMapping with address={}", address);
 	    try {
@@ -146,7 +184,12 @@ private List<Firestations> extractedFirestation() {
 	}
 
 
-
+	 /**
+     * Retrieves a list of persons living at addresses covered by a specific firestation number, along with the count of adults and children.
+     *
+     * @param stationNumber the firestation number
+     * @return a map containing the list of persons, the count of adults, and the count of children
+     */
 	public Map<String, Object> getPersonsByStation(int stationNumber) {
 	    debugLogger.debug("Starting method getPersonsByStation with stationNumber={}", stationNumber);
 	    Map<String, Object> result = new HashMap<>();
@@ -205,7 +248,12 @@ private List<Firestations> extractedFirestation() {
 	    return result;
 	}
 
-
+	  /**
+     * Retrieves unique phone numbers of persons covered by a specific firestation.
+     *
+     * @param firestation the firestation number.
+     * @return a list of unique phone numbers for the specified firestation.
+     */
 	public List<String> getPhoneByFirestationNumber(String firestation) {
 	    debugLogger.debug("Starting method getPhoneByFirestationNumber with firestation={}", firestation);
 
@@ -242,7 +290,12 @@ private List<Firestations> extractedFirestation() {
 	    }
 	}
 
-
+	/**
+     * Retrieves the firestation number and details of house members for a specific address.
+     *
+     * @param address the address to retrieve information for.
+     * @return a {@Link FireResponseDTO} containing the station number and details of house members.
+     */
 	public FireResponseDTO getHouseMembersAndFirestationByAddress(String address) {
 	    debugLogger.debug("Starting method getHouseMembersAndFirestationByAddress with address={}", address);
 
@@ -293,7 +346,12 @@ private List<Firestations> extractedFirestation() {
 	    }
 	}
 
-
+	/**
+     * Retrieves residents informations for a given firestation.
+     *
+     * @param station the firestation number.
+     * @return a list of {@Link FloodDTO} containing addresses and their residents' details.
+     */
 	public List<FloodDTO> getFloodInfoByStation(String station) {
 	    debugLogger.debug("Starting method getFloodInfoByStation with station={}", station);
 	    try {

@@ -16,6 +16,9 @@ import com.project.SafetyNet.dto.FloodDTO;
 import com.project.SafetyNet.model.Firestations;
 import com.project.SafetyNet.service.FirestationsService;
 
+/**
+ * Controller for handling firestation-related API requests.
+ */
 @RestController
 @RequestMapping
 public class FirestationController {
@@ -26,11 +29,20 @@ public class FirestationController {
     private static final Logger errorLogger = LogManager.getLogger("com.project.error");
     private static final Logger debugLogger = LogManager.getLogger("com.project.debug");
 
-    @Autowired
+    /**
+     * Constructs a FirestationController with the specified FirestationsService.
+     * 
+     * @param firestationService
+     */
     public FirestationController(FirestationsService firestationService) {
         this.firestationService = firestationService;
     }
 
+    /**
+     * Fetches all firestations.
+     * 
+     * @return list of {@link Firestations}.
+     */
     @GetMapping("/firestation")
     public List<Firestations> getAllFirestations() {
         debugLogger.debug("Fetching all firestations.");
@@ -39,6 +51,12 @@ public class FirestationController {
         return firestations;
     }
 
+    /**
+     * Fetches persons associated with a given firestation number.
+     * 
+     * @param stationNumber the firestation number.
+     * @return map with persons' information.
+     */
     @GetMapping(value = "/firestation", params = "stationNumber")
     public ResponseEntity<Map<String, Object>> getPersonsByStation(@RequestParam int stationNumber) {
         debugLogger.debug("Fetching persons by station number: {}", stationNumber);
@@ -52,6 +70,12 @@ public class FirestationController {
         }
     }
 
+    /**
+     * Adds a new firestation mapping.
+     * 
+     * @param firestation the {@link Firestations} to add.
+     * @return ResponseEntity with the status of the operation.
+     */
     @PostMapping("/firestation")
     public ResponseEntity<Firestations> addFirestationMapping(@RequestBody Firestations firestation) {
         debugLogger.debug("Adding new firestation mapping: {}", firestation);
@@ -65,6 +89,12 @@ public class FirestationController {
         }
     }
 
+    /**
+     * Updates an existing firestation number.
+     * 
+     * @param firestation the {@link Firestations} to update.
+     * @return ResponseEntity with the status of the operation.
+     */
     @PutMapping("/firestation")
     public ResponseEntity<Firestations> updateFirestationNumber(@RequestBody Firestations firestation) {
         debugLogger.debug("Updating firestation: {}", firestation);
@@ -83,6 +113,12 @@ public class FirestationController {
         }
     }
 
+    /**
+     * Deletes a firestation mapping for a given address.
+     * 
+     * @param address the address associated with the firestation mapping.
+     * @return ResponseEntity with the status of the operation.
+     */
     @DeleteMapping("/firestation")
     public ResponseEntity<Void> deleteFirestationMapping(@RequestParam String address) {
         debugLogger.debug("Deleting firestation mapping for address: {}", address);
@@ -101,6 +137,12 @@ public class FirestationController {
         }
     }
 
+    /**
+     * Fetches phone numbers for a given firestation.
+     * 
+     * @param firestation the firestation to fetch phone numbers for.
+     * @return list of phone numbers.
+     */
     @GetMapping("/phoneAlert")
     public ResponseEntity<List<String>> getPhoneByFirestationNumber(@RequestParam String firestation) {
         debugLogger.debug("Fetching phone numbers for firestation: {}", firestation);
@@ -113,6 +155,12 @@ public class FirestationController {
         return ResponseEntity.ok(phones);
     }
 
+    /**
+     * Fetches house members and firestation information by address.
+     * 
+     * @param address the address to fetch information for.
+     * @return {@link FireResponseDTO} containing house members and firestation data.
+     */
     @GetMapping("/fire")
     public ResponseEntity<FireResponseDTO> getHouseMembersAndFirestationByAddress(@RequestParam String address) {
         debugLogger.debug("Fetching house members and firestation for address: {}", address);
@@ -125,6 +173,12 @@ public class FirestationController {
         return ResponseEntity.ok(response);
     }
 
+    /**
+     * Fetches flood information for a given station.
+     * 
+     * @param station the station to fetch flood information for.
+     * @return list of {@link FloodDTO} containing flood data.
+     */
     @GetMapping("/flood/stations")
     public ResponseEntity<List<FloodDTO>> getFloodInfoByStation(@RequestParam String station) {
         debugLogger.debug("Fetching flood info for station: {}", station);

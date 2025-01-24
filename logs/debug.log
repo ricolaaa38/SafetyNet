@@ -2605,3 +2605,658 @@
 2025-01-16 22:17:45 DEBUG com.project.debug - Saving person data
 2025-01-16 22:17:45 DEBUG com.project.debug - Fetching emails for city: grenoble
 2025-01-16 22:17:45 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:05:40 DEBUG com.project.debug - Fetching house members and firestation for address: 1509 Culver St
+2025-01-24 01:05:40 DEBUG com.project.debug - Starting method getHouseMembersAndFirestationByAddress with address=1509 Culver St
+2025-01-24 01:05:40 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:05:40 DEBUG com.project.debug - Finding station number for address=1509 Culver St
+2025-01-24 01:05:40 DEBUG com.project.debug - Getting house members for address=1509 Culver St
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching phone numbers for firestation: 2
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method getPhoneByFirestationNumber with firestation=2
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching firestations from JSON...
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching persons from JSON...
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating firestation: com.project.SafetyNet.model.Firestations@26664caa
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@26664caa
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@26664caa
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-24 01:05:41 DEBUG com.project.debug - Adding new firestation mapping: com.project.SafetyNet.model.Firestations@4f8d98d4
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@4f8d98d4
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=22
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching flood info for station: 99
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method getFloodInfoByStation with station=99
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:05:41 DEBUG com.project.debug - Finding addresses for station=99
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching phone numbers for firestation: 99
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method getPhoneByFirestationNumber with firestation=99
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching firestations from JSON...
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching all firestations.
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting execution of method getAllFirestations.
+2025-01-24 01:05:41 DEBUG com.project.debug - Deleting firestation mapping for address: unknown address
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=unknown address
+2025-01-24 01:05:41 DEBUG com.project.debug - No firestation mapping found for address=unknown address.
+2025-01-24 01:05:41 DEBUG com.project.debug - Deleting firestation mapping for address: 36 15th Street
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=36 15th Street
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating firestation: com.project.SafetyNet.model.Firestations@38f2c6a0
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@38f2c6a0
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:05:41 DEBUG com.project.debug - No firestation found with address=unknown address to update.
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching flood info for station: 1
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method getFloodInfoByStation with station=1
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:05:41 DEBUG com.project.debug - Finding addresses for station=1
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching residents for address=644 Gershwin Cir
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching residents for address=908 73rd St
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching residents for address=947 E. Rose Dr
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching persons by station number: 99
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=99
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching persons by station number: 1
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching house members and firestation for address: Unknown Address
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method getHouseMembersAndFirestationByAddress with address=Unknown Address
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:05:41 DEBUG com.project.debug - Finding station number for address=Unknown Address
+2025-01-24 01:05:41 DEBUG com.project.debug - Deleting medical record for: pat patrouille
+2025-01-24 01:05:41 DEBUG com.project.debug - Attempting to delete medical record for pat patrouille
+2025-01-24 01:05:41 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@102ee705
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating medical record for notfound person
+2025-01-24 01:05:41 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:05:41 DEBUG com.project.debug - Deleting medical record for: notfound person
+2025-01-24 01:05:41 DEBUG com.project.debug - Attempting to delete medical record for notfound person
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching all medical records.
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching all medical records
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@4effab3b
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating medical record for pat patrouille
+2025-01-24 01:05:41 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@5e584389
+2025-01-24 01:05:41 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:05:41 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@2c7ddfa0
+2025-01-24 01:05:41 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@2c7ddfa0
+2025-01-24 01:05:41 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching all persons.
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching person info for last name: no-name
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching person info by last name: no-name
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating person: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating person: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:05:41 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching child alert for address: 892 Downing Ct
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching child alerts for address: 892 Downing Ct
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching person info for last name: cooper
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching person info by last name: cooper
+2025-01-24 01:05:41 DEBUG com.project.debug - Deleting person: Ber Nadette
+2025-01-24 01:05:41 DEBUG com.project.debug - Attempting to delete person Ber Nadette
+2025-01-24 01:05:41 DEBUG com.project.debug - Saving person data
+2025-01-24 01:05:41 DEBUG com.project.debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:05:41 DEBUG com.project.debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:05:41 DEBUG com.project.debug - Saving person data
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching emails for city: pasici
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching emails for city: pasici
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:05:41 DEBUG com.project.debug - Deleting person: unknown unknown
+2025-01-24 01:05:41 DEBUG com.project.debug - Attempting to delete person unknown unknown
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching child alert for address: unknown address
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching child alerts for address: unknown address
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:05:41 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating fields for person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:05:41 DEBUG com.project.debug - Saving person data
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching emails for city: unknown town
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching emails for city: unknown town
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting execution of method getAllFirestations.
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=5 impasse sans fin
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=0
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@188f6f98
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=2
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@1b53e1ae
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@1b53e1ae
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=1
+2025-01-24 01:05:41 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching all medical records
+2025-01-24 01:05:41 DEBUG com.project.debug - Attempting to delete medical record for Jean Jacque
+2025-01-24 01:05:41 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating medical record for Jean Jacque
+2025-01-24 01:05:41 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@16c90eac
+2025-01-24 01:05:41 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:05:41 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@28e7fbc4
+2025-01-24 01:05:41 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating person: Person(firstName=Jean, lastName=Jacque, address=456 Oak St, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:05:41 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:05:41 DEBUG com.project.debug - Updating fields for person: Person(firstName=Jean, lastName=Jacque, address=123 Main St, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:05:41 DEBUG com.project.debug - Saving person data
+2025-01-24 01:05:41 DEBUG com.project.debug - Attempting to delete person Jean Jacque
+2025-01-24 01:05:41 DEBUG com.project.debug - Saving person data
+2025-01-24 01:05:41 DEBUG com.project.debug - Adding new person: Person(firstName=Jean, lastName=Jacque, address=null, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:05:41 DEBUG com.project.debug - Saving person data
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching emails for city: grenoble
+2025-01-24 01:05:41 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:28:14 DEBUG com.project.debug - Fetching house members and firestation for address: 1509 Culver St
+2025-01-24 01:28:14 DEBUG com.project.debug - Starting method getHouseMembersAndFirestationByAddress with address=1509 Culver St
+2025-01-24 01:28:14 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:28:14 DEBUG com.project.debug - Finding station number for address=1509 Culver St
+2025-01-24 01:28:14 DEBUG com.project.debug - Getting house members for address=1509 Culver St
+2025-01-24 01:28:14 DEBUG com.project.debug - Fetching phone numbers for firestation: 2
+2025-01-24 01:28:14 DEBUG com.project.debug - Starting method getPhoneByFirestationNumber with firestation=2
+2025-01-24 01:28:14 DEBUG com.project.debug - Fetching firestations from JSON...
+2025-01-24 01:28:14 DEBUG com.project.debug - Fetching persons from JSON...
+2025-01-24 01:28:14 DEBUG com.project.debug - Updating firestation: com.project.SafetyNet.model.Firestations@297727ab
+2025-01-24 01:28:14 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@297727ab
+2025-01-24 01:28:14 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:28:14 DEBUG com.project.debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@297727ab
+2025-01-24 01:28:14 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-24 01:28:14 DEBUG com.project.debug - Adding new firestation mapping: com.project.SafetyNet.model.Firestations@559c3710
+2025-01-24 01:28:14 DEBUG com.project.debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@559c3710
+2025-01-24 01:28:14 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=22
+2025-01-24 01:28:14 DEBUG com.project.debug - Fetching flood info for station: 99
+2025-01-24 01:28:14 DEBUG com.project.debug - Starting method getFloodInfoByStation with station=99
+2025-01-24 01:28:14 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:28:14 DEBUG com.project.debug - Finding addresses for station=99
+2025-01-24 01:28:14 DEBUG com.project.debug - Fetching phone numbers for firestation: 99
+2025-01-24 01:28:14 DEBUG com.project.debug - Starting method getPhoneByFirestationNumber with firestation=99
+2025-01-24 01:28:14 DEBUG com.project.debug - Fetching firestations from JSON...
+2025-01-24 01:28:14 DEBUG com.project.debug - Fetching all firestations.
+2025-01-24 01:28:14 DEBUG com.project.debug - Starting execution of method getAllFirestations.
+2025-01-24 01:28:14 DEBUG com.project.debug - Deleting firestation mapping for address: unknown address
+2025-01-24 01:28:14 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=unknown address
+2025-01-24 01:28:14 DEBUG com.project.debug - No firestation mapping found for address=unknown address.
+2025-01-24 01:28:15 DEBUG com.project.debug - Deleting firestation mapping for address: 36 15th Street
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=36 15th Street
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating firestation: com.project.SafetyNet.model.Firestations@5083642c
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@5083642c
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:28:15 DEBUG com.project.debug - No firestation found with address=unknown address to update.
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching flood info for station: 1
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method getFloodInfoByStation with station=1
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:28:15 DEBUG com.project.debug - Finding addresses for station=1
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching residents for address=644 Gershwin Cir
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching residents for address=908 73rd St
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching residents for address=947 E. Rose Dr
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching persons by station number: 99
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=99
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching persons by station number: 1
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching house members and firestation for address: Unknown Address
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method getHouseMembersAndFirestationByAddress with address=Unknown Address
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:28:15 DEBUG com.project.debug - Finding station number for address=Unknown Address
+2025-01-24 01:28:15 DEBUG com.project.debug - Deleting medical record for: pat patrouille
+2025-01-24 01:28:15 DEBUG com.project.debug - Attempting to delete medical record for pat patrouille
+2025-01-24 01:28:15 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@5073b0b8
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating medical record for notfound person
+2025-01-24 01:28:15 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:28:15 DEBUG com.project.debug - Deleting medical record for: notfound person
+2025-01-24 01:28:15 DEBUG com.project.debug - Attempting to delete medical record for notfound person
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching all medical records.
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching all medical records
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@387f53cf
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating medical record for pat patrouille
+2025-01-24 01:28:15 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@2cda8be9
+2025-01-24 01:28:15 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:28:15 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@2ff35d7
+2025-01-24 01:28:15 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@2ff35d7
+2025-01-24 01:28:15 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching all persons.
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching person info for last name: no-name
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching person info by last name: no-name
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating person: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating person: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:28:15 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching child alert for address: 892 Downing Ct
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching child alerts for address: 892 Downing Ct
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching person info for last name: cooper
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching person info by last name: cooper
+2025-01-24 01:28:15 DEBUG com.project.debug - Deleting person: Ber Nadette
+2025-01-24 01:28:15 DEBUG com.project.debug - Attempting to delete person Ber Nadette
+2025-01-24 01:28:15 DEBUG com.project.debug - Saving person data
+2025-01-24 01:28:15 DEBUG com.project.debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:28:15 DEBUG com.project.debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:28:15 DEBUG com.project.debug - Saving person data
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching emails for city: pasici
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching emails for city: pasici
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:28:15 DEBUG com.project.debug - Deleting person: unknown unknown
+2025-01-24 01:28:15 DEBUG com.project.debug - Attempting to delete person unknown unknown
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching child alert for address: unknown address
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching child alerts for address: unknown address
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:28:15 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating fields for person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:28:15 DEBUG com.project.debug - Saving person data
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching emails for city: unknown town
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching emails for city: unknown town
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting execution of method getAllFirestations.
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=5 impasse sans fin
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=0
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@4c4da7ec
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=2
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@1f628b31
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@1f628b31
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=1
+2025-01-24 01:28:15 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching all medical records
+2025-01-24 01:28:15 DEBUG com.project.debug - Attempting to delete medical record for Jean Jacque
+2025-01-24 01:28:15 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating medical record for Jean Jacque
+2025-01-24 01:28:15 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@4b8c6a2f
+2025-01-24 01:28:15 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:28:15 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@70595d2a
+2025-01-24 01:28:15 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating person: Person(firstName=Jean, lastName=Jacque, address=456 Oak St, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:28:15 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:28:15 DEBUG com.project.debug - Updating fields for person: Person(firstName=Jean, lastName=Jacque, address=123 Main St, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:28:15 DEBUG com.project.debug - Saving person data
+2025-01-24 01:28:15 DEBUG com.project.debug - Attempting to delete person Jean Jacque
+2025-01-24 01:28:15 DEBUG com.project.debug - Saving person data
+2025-01-24 01:28:15 DEBUG com.project.debug - Adding new person: Person(firstName=Jean, lastName=Jacque, address=null, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:28:15 DEBUG com.project.debug - Saving person data
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching emails for city: grenoble
+2025-01-24 01:28:15 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching house members and firestation for address: 1509 Culver St
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method getHouseMembersAndFirestationByAddress with address=1509 Culver St
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:38:02 DEBUG com.project.debug - Finding station number for address=1509 Culver St
+2025-01-24 01:38:02 DEBUG com.project.debug - Getting house members for address=1509 Culver St
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching phone numbers for firestation: 2
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method getPhoneByFirestationNumber with firestation=2
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching firestations from JSON...
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching persons from JSON...
+2025-01-24 01:38:02 DEBUG com.project.debug - Updating firestation: com.project.SafetyNet.model.Firestations@4d089ef7
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@4d089ef7
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@4d089ef7
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-24 01:38:02 DEBUG com.project.debug - Adding new firestation mapping: com.project.SafetyNet.model.Firestations@2b4bcd6e
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@2b4bcd6e
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=22
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching flood info for station: 99
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method getFloodInfoByStation with station=99
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:38:02 DEBUG com.project.debug - Finding addresses for station=99
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching phone numbers for firestation: 99
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method getPhoneByFirestationNumber with firestation=99
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching firestations from JSON...
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching all firestations.
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting execution of method getAllFirestations.
+2025-01-24 01:38:02 DEBUG com.project.debug - Deleting firestation mapping for address: unknown address
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=unknown address
+2025-01-24 01:38:02 DEBUG com.project.debug - No firestation mapping found for address=unknown address.
+2025-01-24 01:38:02 DEBUG com.project.debug - Deleting firestation mapping for address: 36 15th Street
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=36 15th Street
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-24 01:38:02 DEBUG com.project.debug - Updating firestation: com.project.SafetyNet.model.Firestations@686ae6b3
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@686ae6b3
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:38:02 DEBUG com.project.debug - No firestation found with address=unknown address to update.
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching flood info for station: 1
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method getFloodInfoByStation with station=1
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:38:02 DEBUG com.project.debug - Finding addresses for station=1
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching residents for address=644 Gershwin Cir
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching residents for address=908 73rd St
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching residents for address=947 E. Rose Dr
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching persons by station number: 99
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=99
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching persons by station number: 1
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching house members and firestation for address: Unknown Address
+2025-01-24 01:38:02 DEBUG com.project.debug - Starting method getHouseMembersAndFirestationByAddress with address=Unknown Address
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:38:02 DEBUG com.project.debug - Finding station number for address=Unknown Address
+2025-01-24 01:38:02 DEBUG com.project.debug - Deleting medical record for: pat patrouille
+2025-01-24 01:38:02 DEBUG com.project.debug - Attempting to delete medical record for pat patrouille
+2025-01-24 01:38:02 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:38:02 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@7acc95a2
+2025-01-24 01:38:02 DEBUG com.project.debug - Updating medical record for notfound person
+2025-01-24 01:38:02 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:38:02 DEBUG com.project.debug - Deleting medical record for: notfound person
+2025-01-24 01:38:02 DEBUG com.project.debug - Attempting to delete medical record for notfound person
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching all medical records.
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching all medical records
+2025-01-24 01:38:02 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@6d0e90d5
+2025-01-24 01:38:02 DEBUG com.project.debug - Updating medical record for pat patrouille
+2025-01-24 01:38:02 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:38:02 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@1276caf2
+2025-01-24 01:38:02 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:38:02 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@20461e2b
+2025-01-24 01:38:02 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@20461e2b
+2025-01-24 01:38:02 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching all persons.
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching person info for last name: no-name
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching person info by last name: no-name
+2025-01-24 01:38:02 DEBUG com.project.debug - Updating person: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:38:02 DEBUG com.project.debug - Updating person: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:38:02 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching child alert for address: 892 Downing Ct
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching child alerts for address: 892 Downing Ct
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching person info for last name: cooper
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching person info by last name: cooper
+2025-01-24 01:38:02 DEBUG com.project.debug - Deleting person: Ber Nadette
+2025-01-24 01:38:02 DEBUG com.project.debug - Attempting to delete person Ber Nadette
+2025-01-24 01:38:02 DEBUG com.project.debug - Saving person data
+2025-01-24 01:38:02 DEBUG com.project.debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:38:02 DEBUG com.project.debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:38:02 DEBUG com.project.debug - Saving person data
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching emails for city: pasici
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching emails for city: pasici
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:38:02 DEBUG com.project.debug - Deleting person: unknown unknown
+2025-01-24 01:38:02 DEBUG com.project.debug - Attempting to delete person unknown unknown
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching child alert for address: unknown address
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching child alerts for address: unknown address
+2025-01-24 01:38:02 DEBUG com.project.debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:38:02 DEBUG com.project.debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:38:02 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:38:02 DEBUG com.project.debug - Updating fields for person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:38:02 DEBUG com.project.debug - Saving person data
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching emails for city: unknown town
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching emails for city: unknown town
+2025-01-24 01:38:02 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:38:03 DEBUG com.project.debug - Starting execution of method getAllFirestations.
+2025-01-24 01:38:03 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=5 impasse sans fin
+2025-01-24 01:38:03 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=0
+2025-01-24 01:38:03 DEBUG com.project.debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@4a45042a
+2025-01-24 01:38:03 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=2
+2025-01-24 01:38:03 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@4b8c6a2f
+2025-01-24 01:38:03 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:38:03 DEBUG com.project.debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@4b8c6a2f
+2025-01-24 01:38:03 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=1
+2025-01-24 01:38:03 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-24 01:38:03 DEBUG com.project.debug - Fetching all medical records
+2025-01-24 01:38:03 DEBUG com.project.debug - Attempting to delete medical record for Jean Jacque
+2025-01-24 01:38:03 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:38:03 DEBUG com.project.debug - Updating medical record for Jean Jacque
+2025-01-24 01:38:03 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:38:03 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@1b53e1ae
+2025-01-24 01:38:03 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:38:03 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@2443b82a
+2025-01-24 01:38:03 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:38:03 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:38:03 DEBUG com.project.debug - Updating person: Person(firstName=Jean, lastName=Jacque, address=456 Oak St, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:38:03 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:38:03 DEBUG com.project.debug - Updating fields for person: Person(firstName=Jean, lastName=Jacque, address=123 Main St, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:38:03 DEBUG com.project.debug - Saving person data
+2025-01-24 01:38:03 DEBUG com.project.debug - Attempting to delete person Jean Jacque
+2025-01-24 01:38:03 DEBUG com.project.debug - Saving person data
+2025-01-24 01:38:03 DEBUG com.project.debug - Adding new person: Person(firstName=Jean, lastName=Jacque, address=null, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:38:03 DEBUG com.project.debug - Saving person data
+2025-01-24 01:38:03 DEBUG com.project.debug - Fetching emails for city: grenoble
+2025-01-24 01:38:03 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching house members and firestation for address: 1509 Culver St
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method getHouseMembersAndFirestationByAddress with address=1509 Culver St
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:40:26 DEBUG com.project.debug - Finding station number for address=1509 Culver St
+2025-01-24 01:40:26 DEBUG com.project.debug - Getting house members for address=1509 Culver St
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching phone numbers for firestation: 2
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method getPhoneByFirestationNumber with firestation=2
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching firestations from JSON...
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching persons from JSON...
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating firestation: com.project.SafetyNet.model.Firestations@5547476c
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@5547476c
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@5547476c
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-24 01:40:26 DEBUG com.project.debug - Adding new firestation mapping: com.project.SafetyNet.model.Firestations@1d4cf8ea
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@1d4cf8ea
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=22
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching flood info for station: 99
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method getFloodInfoByStation with station=99
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:40:26 DEBUG com.project.debug - Finding addresses for station=99
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching phone numbers for firestation: 99
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method getPhoneByFirestationNumber with firestation=99
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching firestations from JSON...
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching all firestations.
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting execution of method getAllFirestations.
+2025-01-24 01:40:26 DEBUG com.project.debug - Deleting firestation mapping for address: unknown address
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=unknown address
+2025-01-24 01:40:26 DEBUG com.project.debug - No firestation mapping found for address=unknown address.
+2025-01-24 01:40:26 DEBUG com.project.debug - Deleting firestation mapping for address: 36 15th Street
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=36 15th Street
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating firestation: com.project.SafetyNet.model.Firestations@47690183
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@47690183
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:40:26 DEBUG com.project.debug - No firestation found with address=unknown address to update.
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching flood info for station: 1
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method getFloodInfoByStation with station=1
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:40:26 DEBUG com.project.debug - Finding addresses for station=1
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching residents for address=644 Gershwin Cir
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching residents for address=908 73rd St
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching residents for address=947 E. Rose Dr
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching persons by station number: 99
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=99
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching persons by station number: 1
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching house members and firestation for address: Unknown Address
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method getHouseMembersAndFirestationByAddress with address=Unknown Address
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:40:26 DEBUG com.project.debug - Finding station number for address=Unknown Address
+2025-01-24 01:40:26 DEBUG com.project.debug - Deleting medical record for: pat patrouille
+2025-01-24 01:40:26 DEBUG com.project.debug - Attempting to delete medical record for pat patrouille
+2025-01-24 01:40:26 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@102ee705
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating medical record for notfound person
+2025-01-24 01:40:26 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:40:26 DEBUG com.project.debug - Deleting medical record for: notfound person
+2025-01-24 01:40:26 DEBUG com.project.debug - Attempting to delete medical record for notfound person
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching all medical records.
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching all medical records
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@4effab3b
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating medical record for pat patrouille
+2025-01-24 01:40:26 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@5e584389
+2025-01-24 01:40:26 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:40:26 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@2c7ddfa0
+2025-01-24 01:40:26 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@2c7ddfa0
+2025-01-24 01:40:26 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching all persons.
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching person info for last name: no-name
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching person info by last name: no-name
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating person: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating person: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:40:26 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching child alert for address: 892 Downing Ct
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching child alerts for address: 892 Downing Ct
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching person info for last name: cooper
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching person info by last name: cooper
+2025-01-24 01:40:26 DEBUG com.project.debug - Deleting person: Ber Nadette
+2025-01-24 01:40:26 DEBUG com.project.debug - Attempting to delete person Ber Nadette
+2025-01-24 01:40:26 DEBUG com.project.debug - Saving person data
+2025-01-24 01:40:26 DEBUG com.project.debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:40:26 DEBUG com.project.debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:40:26 DEBUG com.project.debug - Saving person data
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching emails for city: pasici
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching emails for city: pasici
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:40:26 DEBUG com.project.debug - Deleting person: unknown unknown
+2025-01-24 01:40:26 DEBUG com.project.debug - Attempting to delete person unknown unknown
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching child alert for address: unknown address
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching child alerts for address: unknown address
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:40:26 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating fields for person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:40:26 DEBUG com.project.debug - Saving person data
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching emails for city: unknown town
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching emails for city: unknown town
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting execution of method getAllFirestations.
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=5 impasse sans fin
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=0
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@188f6f98
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=2
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@1b53e1ae
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@1b53e1ae
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=1
+2025-01-24 01:40:26 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching all medical records
+2025-01-24 01:40:26 DEBUG com.project.debug - Attempting to delete medical record for Jean Jacque
+2025-01-24 01:40:26 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating medical record for Jean Jacque
+2025-01-24 01:40:26 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@16c90eac
+2025-01-24 01:40:26 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:40:26 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@28e7fbc4
+2025-01-24 01:40:26 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating person: Person(firstName=Jean, lastName=Jacque, address=456 Oak St, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:40:26 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:40:26 DEBUG com.project.debug - Updating fields for person: Person(firstName=Jean, lastName=Jacque, address=123 Main St, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:40:26 DEBUG com.project.debug - Saving person data
+2025-01-24 01:40:26 DEBUG com.project.debug - Attempting to delete person Jean Jacque
+2025-01-24 01:40:26 DEBUG com.project.debug - Saving person data
+2025-01-24 01:40:26 DEBUG com.project.debug - Adding new person: Person(firstName=Jean, lastName=Jacque, address=null, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:40:26 DEBUG com.project.debug - Saving person data
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching emails for city: grenoble
+2025-01-24 01:40:26 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching house members and firestation for address: 1509 Culver St
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method getHouseMembersAndFirestationByAddress with address=1509 Culver St
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:45:30 DEBUG com.project.debug - Finding station number for address=1509 Culver St
+2025-01-24 01:45:30 DEBUG com.project.debug - Getting house members for address=1509 Culver St
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching phone numbers for firestation: 2
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method getPhoneByFirestationNumber with firestation=2
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching firestations from JSON...
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching persons from JSON...
+2025-01-24 01:45:30 DEBUG com.project.debug - Updating firestation: com.project.SafetyNet.model.Firestations@30ab1b4f
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@30ab1b4f
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@30ab1b4f
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-24 01:45:30 DEBUG com.project.debug - Adding new firestation mapping: com.project.SafetyNet.model.Firestations@861bc5f
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@861bc5f
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=22
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching flood info for station: 99
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method getFloodInfoByStation with station=99
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:45:30 DEBUG com.project.debug - Finding addresses for station=99
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching phone numbers for firestation: 99
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method getPhoneByFirestationNumber with firestation=99
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching firestations from JSON...
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching all firestations.
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting execution of method getAllFirestations.
+2025-01-24 01:45:30 DEBUG com.project.debug - Deleting firestation mapping for address: unknown address
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=unknown address
+2025-01-24 01:45:30 DEBUG com.project.debug - No firestation mapping found for address=unknown address.
+2025-01-24 01:45:30 DEBUG com.project.debug - Deleting firestation mapping for address: 36 15th Street
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=36 15th Street
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=21
+2025-01-24 01:45:30 DEBUG com.project.debug - Updating firestation: com.project.SafetyNet.model.Firestations@48c74c4f
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@48c74c4f
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:45:30 DEBUG com.project.debug - No firestation found with address=unknown address to update.
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching flood info for station: 1
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method getFloodInfoByStation with station=1
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:45:30 DEBUG com.project.debug - Finding addresses for station=1
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching residents for address=644 Gershwin Cir
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching residents for address=908 73rd St
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching residents for address=947 E. Rose Dr
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching persons by station number: 99
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=99
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching persons by station number: 1
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching house members and firestation for address: Unknown Address
+2025-01-24 01:45:30 DEBUG com.project.debug - Starting method getHouseMembersAndFirestationByAddress with address=Unknown Address
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching data from JSON...
+2025-01-24 01:45:30 DEBUG com.project.debug - Finding station number for address=Unknown Address
+2025-01-24 01:45:30 DEBUG com.project.debug - Deleting medical record for: pat patrouille
+2025-01-24 01:45:30 DEBUG com.project.debug - Attempting to delete medical record for pat patrouille
+2025-01-24 01:45:30 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:45:30 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@7acc95a2
+2025-01-24 01:45:30 DEBUG com.project.debug - Updating medical record for notfound person
+2025-01-24 01:45:30 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:45:30 DEBUG com.project.debug - Deleting medical record for: notfound person
+2025-01-24 01:45:30 DEBUG com.project.debug - Attempting to delete medical record for notfound person
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching all medical records.
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching all medical records
+2025-01-24 01:45:30 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@6d0e90d5
+2025-01-24 01:45:30 DEBUG com.project.debug - Updating medical record for pat patrouille
+2025-01-24 01:45:30 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:45:30 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@1276caf2
+2025-01-24 01:45:30 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:45:30 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@20461e2b
+2025-01-24 01:45:30 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@20461e2b
+2025-01-24 01:45:30 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching all persons.
+2025-01-24 01:45:30 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching person info for last name: no-name
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching person info by last name: no-name
+2025-01-24 01:45:31 DEBUG com.project.debug - Updating person: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:45:31 DEBUG com.project.debug - Updating person: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:45:31 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching child alert for address: 892 Downing Ct
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching child alerts for address: 892 Downing Ct
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching person info for last name: cooper
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching person info by last name: cooper
+2025-01-24 01:45:31 DEBUG com.project.debug - Deleting person: Ber Nadette
+2025-01-24 01:45:31 DEBUG com.project.debug - Attempting to delete person Ber Nadette
+2025-01-24 01:45:31 DEBUG com.project.debug - Saving person data
+2025-01-24 01:45:31 DEBUG com.project.debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:45:31 DEBUG com.project.debug - Adding new person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:45:31 DEBUG com.project.debug - Saving person data
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching emails for city: pasici
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching emails for city: pasici
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:45:31 DEBUG com.project.debug - Deleting person: unknown unknown
+2025-01-24 01:45:31 DEBUG com.project.debug - Attempting to delete person unknown unknown
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching child alert for address: unknown address
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching child alerts for address: unknown address
+2025-01-24 01:45:31 DEBUG com.project.debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:45:31 DEBUG com.project.debug - Updating person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:45:31 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:45:31 DEBUG com.project.debug - Updating fields for person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:45:31 DEBUG com.project.debug - Saving person data
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching emails for city: unknown town
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching emails for city: unknown town
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:45:31 DEBUG com.project.debug - Starting execution of method getAllFirestations.
+2025-01-24 01:45:31 DEBUG com.project.debug - Starting method deleteFirestationMapping with address=5 impasse sans fin
+2025-01-24 01:45:31 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=0
+2025-01-24 01:45:31 DEBUG com.project.debug - Starting method addFirestationMapping with firestation=com.project.SafetyNet.model.Firestations@4a45042a
+2025-01-24 01:45:31 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=2
+2025-01-24 01:45:31 DEBUG com.project.debug - Starting method updateFirestationNumber with firestation=com.project.SafetyNet.model.Firestations@4b8c6a2f
+2025-01-24 01:45:31 DEBUG com.project.debug - Starting method extractedFirestation to retrieve all firestations.
+2025-01-24 01:45:31 DEBUG com.project.debug - Starting method rewriteFirestation with firestation=com.project.SafetyNet.model.Firestations@4b8c6a2f
+2025-01-24 01:45:31 DEBUG com.project.debug - Starting method saveFirestationMapping with firestations size=1
+2025-01-24 01:45:31 DEBUG com.project.debug - Starting method getPersonsByStation with stationNumber=1
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching all medical records
+2025-01-24 01:45:31 DEBUG com.project.debug - Attempting to delete medical record for Jean Jacque
+2025-01-24 01:45:31 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:45:31 DEBUG com.project.debug - Updating medical record for Jean Jacque
+2025-01-24 01:45:31 DEBUG com.project.debug - Extracting all medical records
+2025-01-24 01:45:31 DEBUG com.project.debug - Updating medical record: com.project.SafetyNet.model.MedicalRecords@1b53e1ae
+2025-01-24 01:45:31 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:45:31 DEBUG com.project.debug - Adding new medical record: com.project.SafetyNet.model.MedicalRecords@2443b82a
+2025-01-24 01:45:31 DEBUG com.project.debug - Saving medical records
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching all persons
+2025-01-24 01:45:31 DEBUG com.project.debug - Updating person: Person(firstName=Jean, lastName=Jacque, address=456 Oak St, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:45:31 DEBUG com.project.debug - Extracting all persons
+2025-01-24 01:45:31 DEBUG com.project.debug - Updating fields for person: Person(firstName=Jean, lastName=Jacque, address=123 Main St, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:45:31 DEBUG com.project.debug - Saving person data
+2025-01-24 01:45:31 DEBUG com.project.debug - Attempting to delete person Jean Jacque
+2025-01-24 01:45:31 DEBUG com.project.debug - Saving person data
+2025-01-24 01:45:31 DEBUG com.project.debug - Adding new person: Person(firstName=Jean, lastName=Jacque, address=null, city=null, zip=null, phone=null, email=null)
+2025-01-24 01:45:31 DEBUG com.project.debug - Saving person data
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching emails for city: grenoble
+2025-01-24 01:45:31 DEBUG com.project.debug - Fetching all persons

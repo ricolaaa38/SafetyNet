@@ -13,6 +13,9 @@ import org.springframework.stereotype.Service;
 import com.project.SafetyNet.model.MedicalRecords;
 import com.project.SafetyNet.repository.JsonFileConnect;
 
+/**
+ * Service class for managing MedicalRecords entities
+ */
 @Service
 public class MedicalRecordsService {
 		
@@ -27,6 +30,11 @@ public class MedicalRecordsService {
 		this.jsonFileConnect = jsonFileConnect;
 	}
 	
+	  /**
+     * Retrieves all medical records.
+     *
+     * @return A list of all medical records, or {@code null} in case of an error.
+     */
 	public List<MedicalRecords> getAllMedicalRecords() {
 	    try {
 	        debugLogger.debug("Fetching all medical records");
@@ -39,6 +47,11 @@ public class MedicalRecordsService {
 	    }
 	}
 	
+	 /**
+     * Adds a new medical record.
+     *
+     * @param medicalRecord The MedicalRecords object to be added.
+     */
 	public void addMedicalRecord(MedicalRecords medicalRecord) {
 	    try {
 	        debugLogger.debug("Adding new medical record: {}", medicalRecord);
@@ -51,6 +64,12 @@ public class MedicalRecordsService {
 	    }
 	}
 	
+	 /**
+     * Updates an existing medical record.
+     *
+     * @param medicalRecord The MedicalRecords object containing updated information.
+     * @return The updated MedicalRecords object, or {@code null} if no matching record is found.
+     */
 	public MedicalRecords updateMedicalRecord(MedicalRecords medicalRecord) {
 	    debugLogger.debug("Updating medical record for {} {}", medicalRecord.getFirstName(), medicalRecord.getLastName());
 	    List<MedicalRecords> medicalRecords = extractedMedicalRecord();
@@ -69,6 +88,11 @@ public class MedicalRecordsService {
 	    }
 	}
 
+    /**
+     * Extracts all medical records from the data source.
+     *
+     * @return A list of medical records, or an empty list in case of an error.
+     */
 	private List<MedicalRecords> extractedMedicalRecord() {
 	    try {
 	        debugLogger.debug("Extracting all medical records");
@@ -79,6 +103,13 @@ public class MedicalRecordsService {
 	    return Collections.emptyList();
 	}
 
+	  /**
+     * Updates the details of an existing medical record.
+     *
+     * @param medicalRecord The updated version of the medical record.
+     * @param optionalMedicalRecord The existing medical record to be updated.
+     * @return The updated MedicalRecords object.
+     */
 	private MedicalRecords rewriteMedicalRecord(MedicalRecords medicalRecord, Optional<MedicalRecords> optionalMedicalRecord) {
 	    MedicalRecords p = optionalMedicalRecord.get();
 	    debugLogger.debug("Updating medical record: {}", p);
@@ -89,6 +120,11 @@ public class MedicalRecordsService {
 	    return p;
 	}
 
+	 /**
+     * Saves all medical records to the JSON file.
+     *
+     * @param medicalRecords The list of medical records to save.
+     */
 	private void saveMedicalRecord(List<MedicalRecords> medicalRecords) {
 	    try {
 	        debugLogger.debug("Saving medical records");
@@ -99,6 +135,13 @@ public class MedicalRecordsService {
 	    }
 	}
 	
+	 /**
+     * Deletes a medical record based on the first and last name.
+     *
+     * @param firstName The first name of the person whose medical record should be deleted.
+     * @param lastName  The last name of the person whose medical record should be deleted.
+     * @return {@code true} if the deletion was successful, {@code false} otherwise.
+     */
 	public boolean deleteMedicalRecord(String firstName, String lastName) {
 	    try {
 	        debugLogger.debug("Attempting to delete medical record for {} {}", firstName, lastName);

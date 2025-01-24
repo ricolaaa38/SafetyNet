@@ -196,3 +196,73 @@
 2025-01-16 22:17:45 ERROR com.project.error - No person found with name unknown unknown
 2025-01-16 22:17:45 ERROR com.project.error - Person not found for deletion: unknown unknown
 2025-01-16 22:17:45 ERROR com.project.error - No residents found at address unknown address
+2025-01-24 01:05:41 ERROR com.project.error - No flood info found for station: 99
+2025-01-24 01:05:41 ERROR com.project.error - No phone numbers found for firestation: 99
+2025-01-24 01:05:41 ERROR com.project.error - Firestation mapping not found for address: unknown address
+2025-01-24 01:05:41 ERROR com.project.error - Firestation not found for update: com.project.SafetyNet.model.Firestations@38f2c6a0
+2025-01-24 01:05:41 ERROR com.project.error - No house members found for address: Unknown Address
+2025-01-24 01:05:41 ERROR com.project.error - No medical record found for notfound person
+2025-01-24 01:05:41 ERROR com.project.error - Medical record not found for update: com.project.SafetyNet.model.MedicalRecords@102ee705
+2025-01-24 01:05:41 ERROR com.project.error - No medical record found for notfound person
+2025-01-24 01:05:41 ERROR com.project.error - Medical record not found for: notfound person
+2025-01-24 01:05:41 ERROR com.project.error - No person found with name NonExistent Person
+2025-01-24 01:05:41 ERROR com.project.error - Person not found for update: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:05:41 ERROR com.project.error - No person found with name unknown unknown
+2025-01-24 01:05:41 ERROR com.project.error - Person not found for deletion: unknown unknown
+2025-01-24 01:05:41 ERROR com.project.error - No residents found at address unknown address
+2025-01-24 01:28:14 ERROR com.project.error - No flood info found for station: 99
+2025-01-24 01:28:14 ERROR com.project.error - No phone numbers found for firestation: 99
+2025-01-24 01:28:14 ERROR com.project.error - Firestation mapping not found for address: unknown address
+2025-01-24 01:28:15 ERROR com.project.error - Firestation not found for update: com.project.SafetyNet.model.Firestations@5083642c
+2025-01-24 01:28:15 ERROR com.project.error - No house members found for address: Unknown Address
+2025-01-24 01:28:15 ERROR com.project.error - No medical record found for notfound person
+2025-01-24 01:28:15 ERROR com.project.error - Medical record not found for update: com.project.SafetyNet.model.MedicalRecords@5073b0b8
+2025-01-24 01:28:15 ERROR com.project.error - No medical record found for notfound person
+2025-01-24 01:28:15 ERROR com.project.error - Medical record not found for: notfound person
+2025-01-24 01:28:15 ERROR com.project.error - No person found with name NonExistent Person
+2025-01-24 01:28:15 ERROR com.project.error - Person not found for update: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:28:15 ERROR com.project.error - No person found with name unknown unknown
+2025-01-24 01:28:15 ERROR com.project.error - Person not found for deletion: unknown unknown
+2025-01-24 01:28:15 ERROR com.project.error - No residents found at address unknown address
+2025-01-24 01:38:02 ERROR com.project.error - No flood info found for station: 99
+2025-01-24 01:38:02 ERROR com.project.error - No phone numbers found for firestation: 99
+2025-01-24 01:38:02 ERROR com.project.error - Firestation mapping not found for address: unknown address
+2025-01-24 01:38:02 ERROR com.project.error - Firestation not found for update: com.project.SafetyNet.model.Firestations@686ae6b3
+2025-01-24 01:38:02 ERROR com.project.error - No house members found for address: Unknown Address
+2025-01-24 01:38:02 ERROR com.project.error - No medical record found for notfound person
+2025-01-24 01:38:02 ERROR com.project.error - Medical record not found for update: com.project.SafetyNet.model.MedicalRecords@7acc95a2
+2025-01-24 01:38:02 ERROR com.project.error - No medical record found for notfound person
+2025-01-24 01:38:02 ERROR com.project.error - Medical record not found for: notfound person
+2025-01-24 01:38:02 ERROR com.project.error - No person found with name NonExistent Person
+2025-01-24 01:38:02 ERROR com.project.error - Person not found for update: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:38:02 ERROR com.project.error - No person found with name unknown unknown
+2025-01-24 01:38:02 ERROR com.project.error - Person not found for deletion: unknown unknown
+2025-01-24 01:38:02 ERROR com.project.error - No residents found at address unknown address
+2025-01-24 01:40:26 ERROR com.project.error - No flood info found for station: 99
+2025-01-24 01:40:26 ERROR com.project.error - No phone numbers found for firestation: 99
+2025-01-24 01:40:26 ERROR com.project.error - Firestation mapping not found for address: unknown address
+2025-01-24 01:40:26 ERROR com.project.error - Firestation not found for update: com.project.SafetyNet.model.Firestations@47690183
+2025-01-24 01:40:26 ERROR com.project.error - No house members found for address: Unknown Address
+2025-01-24 01:40:26 ERROR com.project.error - No medical record found for notfound person
+2025-01-24 01:40:26 ERROR com.project.error - Medical record not found for update: com.project.SafetyNet.model.MedicalRecords@102ee705
+2025-01-24 01:40:26 ERROR com.project.error - No medical record found for notfound person
+2025-01-24 01:40:26 ERROR com.project.error - Medical record not found for: notfound person
+2025-01-24 01:40:26 ERROR com.project.error - No person found with name NonExistent Person
+2025-01-24 01:40:26 ERROR com.project.error - Person not found for update: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:40:26 ERROR com.project.error - No person found with name unknown unknown
+2025-01-24 01:40:26 ERROR com.project.error - Person not found for deletion: unknown unknown
+2025-01-24 01:40:26 ERROR com.project.error - No residents found at address unknown address
+2025-01-24 01:45:30 ERROR com.project.error - No flood info found for station: 99
+2025-01-24 01:45:30 ERROR com.project.error - No phone numbers found for firestation: 99
+2025-01-24 01:45:30 ERROR com.project.error - Firestation mapping not found for address: unknown address
+2025-01-24 01:45:30 ERROR com.project.error - Firestation not found for update: com.project.SafetyNet.model.Firestations@48c74c4f
+2025-01-24 01:45:30 ERROR com.project.error - No house members found for address: Unknown Address
+2025-01-24 01:45:30 ERROR com.project.error - No medical record found for notfound person
+2025-01-24 01:45:30 ERROR com.project.error - Medical record not found for update: com.project.SafetyNet.model.MedicalRecords@7acc95a2
+2025-01-24 01:45:30 ERROR com.project.error - No medical record found for notfound person
+2025-01-24 01:45:30 ERROR com.project.error - Medical record not found for: notfound person
+2025-01-24 01:45:31 ERROR com.project.error - No person found with name NonExistent Person
+2025-01-24 01:45:31 ERROR com.project.error - Person not found for update: Person(firstName=NonExistent, lastName=Person, address=123 Unknown St, city=Unknown City, zip=00000, phone=000-000-0000, email=nonexistent@person.com)
+2025-01-24 01:45:31 ERROR com.project.error - No person found with name unknown unknown
+2025-01-24 01:45:31 ERROR com.project.error - Person not found for deletion: unknown unknown
+2025-01-24 01:45:31 ERROR com.project.error - No residents found at address unknown address

@@ -21,6 +21,9 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 
+/**
+ * Service class for managing Person entities
+ */
 @Service
 public class PersonService {
 
@@ -35,6 +38,11 @@ public class PersonService {
         this.jsonFileConnect = jsonFileConnect;
     }
 
+    /**
+     * Service methods for getting all persons from JSON file
+     * 
+     * @return A list of all persons, or {@code null} in case of an error.
+     */
     public List<Person> getAllPersons() {
         try {
             debugLogger.debug("Fetching all persons");
@@ -47,6 +55,11 @@ public class PersonService {
         }
     }
 
+    /**
+     * Add a new person to the JSON file
+     * 
+     * @param person The person object to be added
+     */
     public void addPerson(Person person) {
         try {
             debugLogger.debug("Adding new person: {}", person);
@@ -59,6 +72,12 @@ public class PersonService {
         }
     }
 
+    /**
+     * Updates an existing person.
+     *
+     * @param person The Person object containing updated information.
+     * @return The updated Person object, or {@code null} if the person does not exist.
+     */
     public Person updatePerson(Person person) {
         debugLogger.debug("Updating person: {}", person);
         List<Person> persons = extractedPerson();
@@ -77,6 +96,11 @@ public class PersonService {
         }
     }
 
+    /**
+     * Extracts all persons from the data source.
+     *
+     * @return A list of persons, or an empty list in case of an error.
+     */
     private List<Person> extractedPerson() {
         try {
             debugLogger.debug("Extracting all persons");
@@ -87,6 +111,13 @@ public class PersonService {
         }
     }
 
+    /**
+     * Updates the details of an existing person.
+     *
+     * @param person The updated version of the person.
+     * @param optionalPerson The existing person to be updated.
+     * @return The updated Person object.
+     */
     private Person rewritePerson(Person person, Optional<Person> optionalPerson) {
         Person existingPerson = optionalPerson.get();
         debugLogger.debug("Updating fields for person: {}", existingPerson);
@@ -99,6 +130,11 @@ public class PersonService {
         return existingPerson;
     }
 
+    /**
+     * Saves all person data to the JSON file.
+     *
+     * @param persons The list of persons to save.
+     */
     private void savePersonData(List<Person> persons) {
         try {
             debugLogger.debug("Saving person data");
@@ -109,6 +145,13 @@ public class PersonService {
         }
     }
 
+    /**
+     * Deletes a person based on their first and last name.
+     *
+     * @param firstName The first name of the person to delete.
+     * @param lastName  The last name of the person to delete.
+     * @return {@code true} if the deletion was successful, {@code false} otherwise.
+     */
     public boolean deletePerson(String firstName, String lastName) {
         try {
             debugLogger.debug("Attempting to delete person {} {}", firstName, lastName);
@@ -130,6 +173,12 @@ public class PersonService {
         }
     }
 
+    /**
+     * Retrieves email addresses of all persons living in a specific city.
+     *
+     * @param city The name of the city.
+     * @return A list of email addresses.
+     */
     public List<String> getEmailsByCity(String city) {
         debugLogger.debug("Fetching emails for city: {}", city);
         List<Person> persons = getAllPersons();
@@ -141,6 +190,12 @@ public class PersonService {
         return emails;
     }
 
+    /**
+     * Retrieves all children info living at the specified address
+     * 
+     * @param address The address for which to fetch child alerts 
+     * @return A list of {@link ChildAlertDTO} objects, or an empty list if no children
+     */
     public List<ChildAlertDTO> getChildAlertByAddress(String address) {
         try {
             debugLogger.debug("Fetching child alerts for address: {}", address);
@@ -182,6 +237,12 @@ public class PersonService {
         }
     }
 
+    /**
+     * Retrieves detailed information for all persons with a given last name.
+     *
+     * @param lastName The last name of the persons to search for.
+     * @return A list of {@link PersonInfoLastNameDTO} objects, or an empty list in case of an error.
+     */
     public List<PersonInfoLastNameDTO> getAllPersonsInfoByLastName(String lastName) {
         try {
             debugLogger.debug("Fetching person info by last name: {}", lastName);

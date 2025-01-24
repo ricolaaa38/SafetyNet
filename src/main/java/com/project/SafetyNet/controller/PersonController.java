@@ -15,6 +15,9 @@ import com.project.SafetyNet.dto.PersonInfoLastNameDTO;
 import com.project.SafetyNet.model.Person;
 import com.project.SafetyNet.service.PersonService;
 
+/**
+ * Controller for handling person-related API requests.
+ */
 @RestController
 @RequestMapping
 public class PersonController {
@@ -30,6 +33,11 @@ public class PersonController {
         this.personService = personService;
     }
 
+    /**
+     * Fetches all persons from the service.
+     * 
+     * @return list of {@link Person}.
+     */
     @GetMapping("/person")
     public List<Person> getAllPersons() {
         debugLogger.debug("Fetching all persons.");
@@ -38,6 +46,12 @@ public class PersonController {
         return persons;
     }
 
+    /**
+     * Adds a new person.
+     * 
+     * @param person the {@link Person} to add.
+     * @return ResponseEntity with the status of the operation.
+     */
     @PostMapping("/person")
     public ResponseEntity<Person> addPerson(@RequestBody Person person) {
         debugLogger.debug("Adding new person: {}", person);
@@ -51,6 +65,12 @@ public class PersonController {
         }
     }
 
+    /**
+     * Updates an existing person.
+     * 
+     * @param person the {@link Person} to update.
+     * @return ResponseEntity with the status of the operation.
+     */
     @PutMapping("/person")
     public ResponseEntity<Person> updatePerson(@RequestBody Person person) {
         debugLogger.debug("Updating person: {}", person);
@@ -69,6 +89,13 @@ public class PersonController {
         }
     }
 
+    /**
+     * Deletes a person by their first and last name.
+     * 
+     * @param firstName the first name of the person.
+     * @param lastName the last name of the person.
+     * @return ResponseEntity with the status of the operation.
+     */
     @DeleteMapping("/person")
     public ResponseEntity<Void> deletePerson(@RequestParam String firstName, @RequestParam String lastName) {
         debugLogger.debug("Deleting person: {} {}", firstName, lastName);
@@ -87,6 +114,12 @@ public class PersonController {
         }
     }
 
+    /**
+     * Retrieves all email addresses for a given city.
+     * 
+     * @param city the city to search for.
+     * @return list of email addresses or empty if none found.
+     */
     @GetMapping("/communityEmail")
     public ResponseEntity<List<String>> getEmailsByCity(@RequestParam String city) {
         debugLogger.debug("Fetching emails for city: {}", city);
@@ -99,6 +132,12 @@ public class PersonController {
         return ResponseEntity.ok(emails);
     }
 
+    /**
+     * Fetches children's information for a given address.
+     * 
+     * @param address the address to search for.
+     * @return list of {@link ChildAlertDTO} or empty if no children found.
+     */
     @GetMapping("/childAlert")
     public ResponseEntity<List<ChildAlertDTO>> getChildAlertByAddress(@RequestParam String address) {
         debugLogger.debug("Fetching child alert for address: {}", address);
@@ -111,6 +150,12 @@ public class PersonController {
         return ResponseEntity.ok(children);
     }
 
+    /**
+     * Retrieves person info for all persons with the given last name.
+     * 
+     * @param lastName the last name to search for.
+     * @return list of {@link PersonInfoLastNameDTO} or empty if no persons found.
+     */
     @GetMapping("/personInfo")
     public ResponseEntity<List<PersonInfoLastNameDTO>> getAllPersonsInfoByLastName(@RequestParam String lastName) {
         debugLogger.debug("Fetching person info for last name: {}", lastName);

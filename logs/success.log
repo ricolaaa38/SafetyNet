@@ -2294,3 +2294,513 @@
 2025-01-16 22:17:45 INFO  com.project.success - Successfully added person Jean Jacque
 2025-01-16 22:17:45 INFO  com.project.success - Successfully retrieved 2 persons.
 2025-01-16 22:17:45 INFO  com.project.success - Successfully retrieved 2 emails for city grenoble
+2025-01-24 01:05:40 INFO  com.project.success - Station number 3 found for address=1509 Culver St
+2025-01-24 01:05:40 INFO  com.project.success - Retrieved 5 house members for address=1509 Culver St
+2025-01-24 01:05:40 INFO  com.project.success - Successfully fetched house members and firestation for address: 1509 Culver St
+2025-01-24 01:05:41 INFO  com.project.success - Found 3 address(es) for firestation 2
+2025-01-24 01:05:41 INFO  com.project.success - Retrieved 4 unique phone number(s) for firestation 2
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched phone numbers for firestation: 2
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched 21 firestations from the JSON file.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@43a34f02
+2025-01-24 01:05:41 INFO  com.project.success - Updated firestation number for address=36 15th Street to station=58
+2025-01-24 01:05:41 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@43a34f02
+2025-01-24 01:05:41 INFO  com.project.success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@4f8d98d4
+2025-01-24 01:05:41 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully added firestation mapping: com.project.SafetyNet.model.Firestations@4f8d98d4
+2025-01-24 01:05:41 INFO  com.project.success - Found 0 address(es) for station 99
+2025-01-24 01:05:41 INFO  com.project.success - Retrieved flood info for 0 address(es) in station 99
+2025-01-24 01:05:41 INFO  com.project.success - Found 0 address(es) for firestation 99
+2025-01-24 01:05:41 WARN  com.project.success - No addresses found for firestation 99
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved all firestations.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched all firestations.
+2025-01-24 01:05:41 INFO  com.project.success - Found firestation mapping for address=36 15th Street, deleting...
+2025-01-24 01:05:41 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully deleted firestation mapping for address=36 15th Street.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully deleted firestation mapping for address: 36 15th Street
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched 21 firestations from the JSON file.
+2025-01-24 01:05:41 INFO  com.project.success - Found 3 address(es) for station 1
+2025-01-24 01:05:41 INFO  com.project.success - Retrieved flood info for 3 address(es) in station 1
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched flood info for station: 1
+2025-01-24 01:05:41 INFO  com.project.success - Found 0 addresses for stationNumber 99
+2025-01-24 01:05:41 INFO  com.project.success - No addresses found for stationNumber 99
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched persons by station number: 99
+2025-01-24 01:05:41 INFO  com.project.success - Found 3 addresses for stationNumber 1
+2025-01-24 01:05:41 INFO  com.project.success - Found 5 adults and 1 children for stationNumber 1
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched persons by station number: 1
+2025-01-24 01:05:41 WARN  com.project.success - No station found for address=Unknown Address
+2025-01-24 01:05:41 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully deleted medical record for pat
+2025-01-24 01:05:41 INFO  com.project.success - Successfully deleted medical record for: pat patrouille
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 25 medical records
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched all medical records.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully rewritten medical record for pat
+2025-01-24 01:05:41 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully updated medical record for pat
+2025-01-24 01:05:41 INFO  com.project.success - Successfully updated medical record: com.project.SafetyNet.model.MedicalRecords@5e584389
+2025-01-24 01:05:41 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully added medical record for pat
+2025-01-24 01:05:41 INFO  com.project.success - Successfully added medical record: com.project.SafetyNet.model.MedicalRecords@2c7ddfa0
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched all persons.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 0 person info entries for last name no-name
+2025-01-24 01:05:41 INFO  com.project.success - No person info found for last name: no-name
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 1 child alerts for address 892 Downing Ct
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched child alert for address: 892 Downing Ct
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 2 person info entries for last name cooper
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched person info for last name: cooper
+2025-01-24 01:05:41 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully deleted person Ber Nadette
+2025-01-24 01:05:41 INFO  com.project.success - Successfully deleted person: Ber Nadette
+2025-01-24 01:05:41 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully added person Ber Nadette
+2025-01-24 01:05:41 INFO  com.project.success - Successfully added person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 1 emails for city pasici
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched emails for city: pasici
+2025-01-24 01:05:41 INFO  com.project.success - No children found at address: unknown address
+2025-01-24 01:05:41 INFO  com.project.success - Successfully updated fields for person Ber Nadette
+2025-01-24 01:05:41 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully updated person Ber Nadette
+2025-01-24 01:05:41 INFO  com.project.success - Successfully updated person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 0 emails for city unknown town
+2025-01-24 01:05:41 INFO  com.project.success - No emails found for city: unknown town
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved all firestations.
+2025-01-24 01:05:41 INFO  com.project.success - Found firestation mapping for address=5 impasse sans fin, deleting...
+2025-01-24 01:05:41 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully deleted firestation mapping for address=5 impasse sans fin.
+2025-01-24 01:05:41 INFO  com.project.success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@188f6f98
+2025-01-24 01:05:41 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully fetched 1 firestations from the JSON file.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@70abd04e
+2025-01-24 01:05:41 INFO  com.project.success - Updated firestation number for address=12bis boulevard de la rue to station=3
+2025-01-24 01:05:41 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:05:41 INFO  com.project.success - Found 1 addresses for stationNumber 1
+2025-01-24 01:05:41 INFO  com.project.success - Found 1 adults and 1 children for stationNumber 1
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 2 medical records
+2025-01-24 01:05:41 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully deleted medical record for Jean
+2025-01-24 01:05:41 INFO  com.project.success - Successfully rewritten medical record for Jean
+2025-01-24 01:05:41 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully updated medical record for Jean
+2025-01-24 01:05:41 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully added medical record for pierre
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 2 persons.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully updated fields for person Jean Jacque
+2025-01-24 01:05:41 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully updated person Jean Jacque
+2025-01-24 01:05:41 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully deleted person Jean Jacque
+2025-01-24 01:05:41 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully added person Jean Jacque
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 2 persons.
+2025-01-24 01:05:41 INFO  com.project.success - Successfully retrieved 2 emails for city grenoble
+2025-01-24 01:28:14 INFO  com.project.success - Station number 3 found for address=1509 Culver St
+2025-01-24 01:28:14 INFO  com.project.success - Retrieved 5 house members for address=1509 Culver St
+2025-01-24 01:28:14 INFO  com.project.success - Successfully fetched house members and firestation for address: 1509 Culver St
+2025-01-24 01:28:14 INFO  com.project.success - Found 3 address(es) for firestation 2
+2025-01-24 01:28:14 INFO  com.project.success - Retrieved 4 unique phone number(s) for firestation 2
+2025-01-24 01:28:14 INFO  com.project.success - Successfully fetched phone numbers for firestation: 2
+2025-01-24 01:28:14 INFO  com.project.success - Successfully fetched 21 firestations from the JSON file.
+2025-01-24 01:28:14 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@262ac4cc
+2025-01-24 01:28:14 INFO  com.project.success - Updated firestation number for address=36 15th Street to station=58
+2025-01-24 01:28:14 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:28:14 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@262ac4cc
+2025-01-24 01:28:14 INFO  com.project.success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@559c3710
+2025-01-24 01:28:14 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:28:14 INFO  com.project.success - Successfully added firestation mapping: com.project.SafetyNet.model.Firestations@559c3710
+2025-01-24 01:28:14 INFO  com.project.success - Found 0 address(es) for station 99
+2025-01-24 01:28:14 INFO  com.project.success - Retrieved flood info for 0 address(es) in station 99
+2025-01-24 01:28:14 INFO  com.project.success - Found 0 address(es) for firestation 99
+2025-01-24 01:28:14 WARN  com.project.success - No addresses found for firestation 99
+2025-01-24 01:28:14 INFO  com.project.success - Successfully retrieved all firestations.
+2025-01-24 01:28:14 INFO  com.project.success - Successfully fetched all firestations.
+2025-01-24 01:28:15 INFO  com.project.success - Found firestation mapping for address=36 15th Street, deleting...
+2025-01-24 01:28:15 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully deleted firestation mapping for address=36 15th Street.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully deleted firestation mapping for address: 36 15th Street
+2025-01-24 01:28:15 INFO  com.project.success - Successfully fetched 21 firestations from the JSON file.
+2025-01-24 01:28:15 INFO  com.project.success - Found 3 address(es) for station 1
+2025-01-24 01:28:15 INFO  com.project.success - Retrieved flood info for 3 address(es) in station 1
+2025-01-24 01:28:15 INFO  com.project.success - Successfully fetched flood info for station: 1
+2025-01-24 01:28:15 INFO  com.project.success - Found 0 addresses for stationNumber 99
+2025-01-24 01:28:15 INFO  com.project.success - No addresses found for stationNumber 99
+2025-01-24 01:28:15 INFO  com.project.success - Successfully fetched persons by station number: 99
+2025-01-24 01:28:15 INFO  com.project.success - Found 3 addresses for stationNumber 1
+2025-01-24 01:28:15 INFO  com.project.success - Found 5 adults and 1 children for stationNumber 1
+2025-01-24 01:28:15 INFO  com.project.success - Successfully fetched persons by station number: 1
+2025-01-24 01:28:15 WARN  com.project.success - No station found for address=Unknown Address
+2025-01-24 01:28:15 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully deleted medical record for pat
+2025-01-24 01:28:15 INFO  com.project.success - Successfully deleted medical record for: pat patrouille
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 25 medical records
+2025-01-24 01:28:15 INFO  com.project.success - Successfully fetched all medical records.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully rewritten medical record for pat
+2025-01-24 01:28:15 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully updated medical record for pat
+2025-01-24 01:28:15 INFO  com.project.success - Successfully updated medical record: com.project.SafetyNet.model.MedicalRecords@2cda8be9
+2025-01-24 01:28:15 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully added medical record for pat
+2025-01-24 01:28:15 INFO  com.project.success - Successfully added medical record: com.project.SafetyNet.model.MedicalRecords@2ff35d7
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully fetched all persons.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 0 person info entries for last name no-name
+2025-01-24 01:28:15 INFO  com.project.success - No person info found for last name: no-name
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 1 child alerts for address 892 Downing Ct
+2025-01-24 01:28:15 INFO  com.project.success - Successfully fetched child alert for address: 892 Downing Ct
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 2 person info entries for last name cooper
+2025-01-24 01:28:15 INFO  com.project.success - Successfully fetched person info for last name: cooper
+2025-01-24 01:28:15 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully deleted person Ber Nadette
+2025-01-24 01:28:15 INFO  com.project.success - Successfully deleted person: Ber Nadette
+2025-01-24 01:28:15 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully added person Ber Nadette
+2025-01-24 01:28:15 INFO  com.project.success - Successfully added person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 1 emails for city pasici
+2025-01-24 01:28:15 INFO  com.project.success - Successfully fetched emails for city: pasici
+2025-01-24 01:28:15 INFO  com.project.success - No children found at address: unknown address
+2025-01-24 01:28:15 INFO  com.project.success - Successfully updated fields for person Ber Nadette
+2025-01-24 01:28:15 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully updated person Ber Nadette
+2025-01-24 01:28:15 INFO  com.project.success - Successfully updated person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 0 emails for city unknown town
+2025-01-24 01:28:15 INFO  com.project.success - No emails found for city: unknown town
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved all firestations.
+2025-01-24 01:28:15 INFO  com.project.success - Found firestation mapping for address=5 impasse sans fin, deleting...
+2025-01-24 01:28:15 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully deleted firestation mapping for address=5 impasse sans fin.
+2025-01-24 01:28:15 INFO  com.project.success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@4c4da7ec
+2025-01-24 01:28:15 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully fetched 1 firestations from the JSON file.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@4af92aa7
+2025-01-24 01:28:15 INFO  com.project.success - Updated firestation number for address=12bis boulevard de la rue to station=3
+2025-01-24 01:28:15 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:28:15 INFO  com.project.success - Found 1 addresses for stationNumber 1
+2025-01-24 01:28:15 INFO  com.project.success - Found 1 adults and 1 children for stationNumber 1
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 2 medical records
+2025-01-24 01:28:15 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully deleted medical record for Jean
+2025-01-24 01:28:15 INFO  com.project.success - Successfully rewritten medical record for Jean
+2025-01-24 01:28:15 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully updated medical record for Jean
+2025-01-24 01:28:15 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully added medical record for pierre
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 2 persons.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully updated fields for person Jean Jacque
+2025-01-24 01:28:15 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully updated person Jean Jacque
+2025-01-24 01:28:15 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully deleted person Jean Jacque
+2025-01-24 01:28:15 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully added person Jean Jacque
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 2 persons.
+2025-01-24 01:28:15 INFO  com.project.success - Successfully retrieved 2 emails for city grenoble
+2025-01-24 01:38:02 INFO  com.project.success - Station number 3 found for address=1509 Culver St
+2025-01-24 01:38:02 INFO  com.project.success - Retrieved 5 house members for address=1509 Culver St
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched house members and firestation for address: 1509 Culver St
+2025-01-24 01:38:02 INFO  com.project.success - Found 3 address(es) for firestation 2
+2025-01-24 01:38:02 INFO  com.project.success - Retrieved 4 unique phone number(s) for firestation 2
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched phone numbers for firestation: 2
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched 21 firestations from the JSON file.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@13866e67
+2025-01-24 01:38:02 INFO  com.project.success - Updated firestation number for address=36 15th Street to station=58
+2025-01-24 01:38:02 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@13866e67
+2025-01-24 01:38:02 INFO  com.project.success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@2b4bcd6e
+2025-01-24 01:38:02 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully added firestation mapping: com.project.SafetyNet.model.Firestations@2b4bcd6e
+2025-01-24 01:38:02 INFO  com.project.success - Found 0 address(es) for station 99
+2025-01-24 01:38:02 INFO  com.project.success - Retrieved flood info for 0 address(es) in station 99
+2025-01-24 01:38:02 INFO  com.project.success - Found 0 address(es) for firestation 99
+2025-01-24 01:38:02 WARN  com.project.success - No addresses found for firestation 99
+2025-01-24 01:38:02 INFO  com.project.success - Successfully retrieved all firestations.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched all firestations.
+2025-01-24 01:38:02 INFO  com.project.success - Found firestation mapping for address=36 15th Street, deleting...
+2025-01-24 01:38:02 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully deleted firestation mapping for address=36 15th Street.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully deleted firestation mapping for address: 36 15th Street
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched 21 firestations from the JSON file.
+2025-01-24 01:38:02 INFO  com.project.success - Found 3 address(es) for station 1
+2025-01-24 01:38:02 INFO  com.project.success - Retrieved flood info for 3 address(es) in station 1
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched flood info for station: 1
+2025-01-24 01:38:02 INFO  com.project.success - Found 0 addresses for stationNumber 99
+2025-01-24 01:38:02 INFO  com.project.success - No addresses found for stationNumber 99
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched persons by station number: 99
+2025-01-24 01:38:02 INFO  com.project.success - Found 3 addresses for stationNumber 1
+2025-01-24 01:38:02 INFO  com.project.success - Found 5 adults and 1 children for stationNumber 1
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched persons by station number: 1
+2025-01-24 01:38:02 WARN  com.project.success - No station found for address=Unknown Address
+2025-01-24 01:38:02 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully deleted medical record for pat
+2025-01-24 01:38:02 INFO  com.project.success - Successfully deleted medical record for: pat patrouille
+2025-01-24 01:38:02 INFO  com.project.success - Successfully retrieved 25 medical records
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched all medical records.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully rewritten medical record for pat
+2025-01-24 01:38:02 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully updated medical record for pat
+2025-01-24 01:38:02 INFO  com.project.success - Successfully updated medical record: com.project.SafetyNet.model.MedicalRecords@1276caf2
+2025-01-24 01:38:02 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully added medical record for pat
+2025-01-24 01:38:02 INFO  com.project.success - Successfully added medical record: com.project.SafetyNet.model.MedicalRecords@20461e2b
+2025-01-24 01:38:02 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched all persons.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully retrieved 0 person info entries for last name no-name
+2025-01-24 01:38:02 INFO  com.project.success - No person info found for last name: no-name
+2025-01-24 01:38:02 INFO  com.project.success - Successfully retrieved 1 child alerts for address 892 Downing Ct
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched child alert for address: 892 Downing Ct
+2025-01-24 01:38:02 INFO  com.project.success - Successfully retrieved 2 person info entries for last name cooper
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched person info for last name: cooper
+2025-01-24 01:38:02 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully deleted person Ber Nadette
+2025-01-24 01:38:02 INFO  com.project.success - Successfully deleted person: Ber Nadette
+2025-01-24 01:38:02 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully added person Ber Nadette
+2025-01-24 01:38:02 INFO  com.project.success - Successfully added person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:38:02 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully retrieved 1 emails for city pasici
+2025-01-24 01:38:02 INFO  com.project.success - Successfully fetched emails for city: pasici
+2025-01-24 01:38:02 INFO  com.project.success - No children found at address: unknown address
+2025-01-24 01:38:02 INFO  com.project.success - Successfully updated fields for person Ber Nadette
+2025-01-24 01:38:02 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully updated person Ber Nadette
+2025-01-24 01:38:02 INFO  com.project.success - Successfully updated person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:38:02 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:38:02 INFO  com.project.success - Successfully retrieved 0 emails for city unknown town
+2025-01-24 01:38:02 INFO  com.project.success - No emails found for city: unknown town
+2025-01-24 01:38:03 INFO  com.project.success - Successfully retrieved all firestations.
+2025-01-24 01:38:03 INFO  com.project.success - Found firestation mapping for address=5 impasse sans fin, deleting...
+2025-01-24 01:38:03 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:38:03 INFO  com.project.success - Successfully deleted firestation mapping for address=5 impasse sans fin.
+2025-01-24 01:38:03 INFO  com.project.success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@4a45042a
+2025-01-24 01:38:03 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:38:03 INFO  com.project.success - Successfully fetched 1 firestations from the JSON file.
+2025-01-24 01:38:03 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@12f3e95d
+2025-01-24 01:38:03 INFO  com.project.success - Updated firestation number for address=12bis boulevard de la rue to station=3
+2025-01-24 01:38:03 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:38:03 INFO  com.project.success - Found 1 addresses for stationNumber 1
+2025-01-24 01:38:03 INFO  com.project.success - Found 1 adults and 1 children for stationNumber 1
+2025-01-24 01:38:03 INFO  com.project.success - Successfully retrieved 2 medical records
+2025-01-24 01:38:03 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:38:03 INFO  com.project.success - Successfully deleted medical record for Jean
+2025-01-24 01:38:03 INFO  com.project.success - Successfully rewritten medical record for Jean
+2025-01-24 01:38:03 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:38:03 INFO  com.project.success - Successfully updated medical record for Jean
+2025-01-24 01:38:03 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:38:03 INFO  com.project.success - Successfully added medical record for pierre
+2025-01-24 01:38:03 INFO  com.project.success - Successfully retrieved 2 persons.
+2025-01-24 01:38:03 INFO  com.project.success - Successfully updated fields for person Jean Jacque
+2025-01-24 01:38:03 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:38:03 INFO  com.project.success - Successfully updated person Jean Jacque
+2025-01-24 01:38:03 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:38:03 INFO  com.project.success - Successfully deleted person Jean Jacque
+2025-01-24 01:38:03 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:38:03 INFO  com.project.success - Successfully added person Jean Jacque
+2025-01-24 01:38:03 INFO  com.project.success - Successfully retrieved 2 persons.
+2025-01-24 01:38:03 INFO  com.project.success - Successfully retrieved 2 emails for city grenoble
+2025-01-24 01:40:26 INFO  com.project.success - Station number 3 found for address=1509 Culver St
+2025-01-24 01:40:26 INFO  com.project.success - Retrieved 5 house members for address=1509 Culver St
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched house members and firestation for address: 1509 Culver St
+2025-01-24 01:40:26 INFO  com.project.success - Found 3 address(es) for firestation 2
+2025-01-24 01:40:26 INFO  com.project.success - Retrieved 4 unique phone number(s) for firestation 2
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched phone numbers for firestation: 2
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched 21 firestations from the JSON file.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@31809f2b
+2025-01-24 01:40:26 INFO  com.project.success - Updated firestation number for address=36 15th Street to station=58
+2025-01-24 01:40:26 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@31809f2b
+2025-01-24 01:40:26 INFO  com.project.success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@1d4cf8ea
+2025-01-24 01:40:26 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully added firestation mapping: com.project.SafetyNet.model.Firestations@1d4cf8ea
+2025-01-24 01:40:26 INFO  com.project.success - Found 0 address(es) for station 99
+2025-01-24 01:40:26 INFO  com.project.success - Retrieved flood info for 0 address(es) in station 99
+2025-01-24 01:40:26 INFO  com.project.success - Found 0 address(es) for firestation 99
+2025-01-24 01:40:26 WARN  com.project.success - No addresses found for firestation 99
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved all firestations.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched all firestations.
+2025-01-24 01:40:26 INFO  com.project.success - Found firestation mapping for address=36 15th Street, deleting...
+2025-01-24 01:40:26 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully deleted firestation mapping for address=36 15th Street.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully deleted firestation mapping for address: 36 15th Street
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched 21 firestations from the JSON file.
+2025-01-24 01:40:26 INFO  com.project.success - Found 3 address(es) for station 1
+2025-01-24 01:40:26 INFO  com.project.success - Retrieved flood info for 3 address(es) in station 1
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched flood info for station: 1
+2025-01-24 01:40:26 INFO  com.project.success - Found 0 addresses for stationNumber 99
+2025-01-24 01:40:26 INFO  com.project.success - No addresses found for stationNumber 99
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched persons by station number: 99
+2025-01-24 01:40:26 INFO  com.project.success - Found 3 addresses for stationNumber 1
+2025-01-24 01:40:26 INFO  com.project.success - Found 5 adults and 1 children for stationNumber 1
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched persons by station number: 1
+2025-01-24 01:40:26 WARN  com.project.success - No station found for address=Unknown Address
+2025-01-24 01:40:26 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully deleted medical record for pat
+2025-01-24 01:40:26 INFO  com.project.success - Successfully deleted medical record for: pat patrouille
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 25 medical records
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched all medical records.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully rewritten medical record for pat
+2025-01-24 01:40:26 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully updated medical record for pat
+2025-01-24 01:40:26 INFO  com.project.success - Successfully updated medical record: com.project.SafetyNet.model.MedicalRecords@5e584389
+2025-01-24 01:40:26 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully added medical record for pat
+2025-01-24 01:40:26 INFO  com.project.success - Successfully added medical record: com.project.SafetyNet.model.MedicalRecords@2c7ddfa0
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched all persons.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 0 person info entries for last name no-name
+2025-01-24 01:40:26 INFO  com.project.success - No person info found for last name: no-name
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 1 child alerts for address 892 Downing Ct
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched child alert for address: 892 Downing Ct
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 2 person info entries for last name cooper
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched person info for last name: cooper
+2025-01-24 01:40:26 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully deleted person Ber Nadette
+2025-01-24 01:40:26 INFO  com.project.success - Successfully deleted person: Ber Nadette
+2025-01-24 01:40:26 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully added person Ber Nadette
+2025-01-24 01:40:26 INFO  com.project.success - Successfully added person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 1 emails for city pasici
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched emails for city: pasici
+2025-01-24 01:40:26 INFO  com.project.success - No children found at address: unknown address
+2025-01-24 01:40:26 INFO  com.project.success - Successfully updated fields for person Ber Nadette
+2025-01-24 01:40:26 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully updated person Ber Nadette
+2025-01-24 01:40:26 INFO  com.project.success - Successfully updated person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 0 emails for city unknown town
+2025-01-24 01:40:26 INFO  com.project.success - No emails found for city: unknown town
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved all firestations.
+2025-01-24 01:40:26 INFO  com.project.success - Found firestation mapping for address=5 impasse sans fin, deleting...
+2025-01-24 01:40:26 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully deleted firestation mapping for address=5 impasse sans fin.
+2025-01-24 01:40:26 INFO  com.project.success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@188f6f98
+2025-01-24 01:40:26 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully fetched 1 firestations from the JSON file.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@70abd04e
+2025-01-24 01:40:26 INFO  com.project.success - Updated firestation number for address=12bis boulevard de la rue to station=3
+2025-01-24 01:40:26 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:40:26 INFO  com.project.success - Found 1 addresses for stationNumber 1
+2025-01-24 01:40:26 INFO  com.project.success - Found 1 adults and 1 children for stationNumber 1
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 2 medical records
+2025-01-24 01:40:26 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully deleted medical record for Jean
+2025-01-24 01:40:26 INFO  com.project.success - Successfully rewritten medical record for Jean
+2025-01-24 01:40:26 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully updated medical record for Jean
+2025-01-24 01:40:26 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully added medical record for pierre
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 2 persons.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully updated fields for person Jean Jacque
+2025-01-24 01:40:26 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully updated person Jean Jacque
+2025-01-24 01:40:26 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully deleted person Jean Jacque
+2025-01-24 01:40:26 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully added person Jean Jacque
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 2 persons.
+2025-01-24 01:40:26 INFO  com.project.success - Successfully retrieved 2 emails for city grenoble
+2025-01-24 01:45:30 INFO  com.project.success - Station number 3 found for address=1509 Culver St
+2025-01-24 01:45:30 INFO  com.project.success - Retrieved 5 house members for address=1509 Culver St
+2025-01-24 01:45:30 INFO  com.project.success - Successfully fetched house members and firestation for address: 1509 Culver St
+2025-01-24 01:45:30 INFO  com.project.success - Found 3 address(es) for firestation 2
+2025-01-24 01:45:30 INFO  com.project.success - Retrieved 4 unique phone number(s) for firestation 2
+2025-01-24 01:45:30 INFO  com.project.success - Successfully fetched phone numbers for firestation: 2
+2025-01-24 01:45:30 INFO  com.project.success - Successfully fetched 21 firestations from the JSON file.
+2025-01-24 01:45:30 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@1a44d89b
+2025-01-24 01:45:30 INFO  com.project.success - Updated firestation number for address=36 15th Street to station=58
+2025-01-24 01:45:30 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:45:30 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@1a44d89b
+2025-01-24 01:45:30 INFO  com.project.success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@861bc5f
+2025-01-24 01:45:30 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:45:30 INFO  com.project.success - Successfully added firestation mapping: com.project.SafetyNet.model.Firestations@861bc5f
+2025-01-24 01:45:30 INFO  com.project.success - Found 0 address(es) for station 99
+2025-01-24 01:45:30 INFO  com.project.success - Retrieved flood info for 0 address(es) in station 99
+2025-01-24 01:45:30 INFO  com.project.success - Found 0 address(es) for firestation 99
+2025-01-24 01:45:30 WARN  com.project.success - No addresses found for firestation 99
+2025-01-24 01:45:30 INFO  com.project.success - Successfully retrieved all firestations.
+2025-01-24 01:45:30 INFO  com.project.success - Successfully fetched all firestations.
+2025-01-24 01:45:30 INFO  com.project.success - Found firestation mapping for address=36 15th Street, deleting...
+2025-01-24 01:45:30 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:45:30 INFO  com.project.success - Successfully deleted firestation mapping for address=36 15th Street.
+2025-01-24 01:45:30 INFO  com.project.success - Successfully deleted firestation mapping for address: 36 15th Street
+2025-01-24 01:45:30 INFO  com.project.success - Successfully fetched 21 firestations from the JSON file.
+2025-01-24 01:45:30 INFO  com.project.success - Found 3 address(es) for station 1
+2025-01-24 01:45:30 INFO  com.project.success - Retrieved flood info for 3 address(es) in station 1
+2025-01-24 01:45:30 INFO  com.project.success - Successfully fetched flood info for station: 1
+2025-01-24 01:45:30 INFO  com.project.success - Found 0 addresses for stationNumber 99
+2025-01-24 01:45:30 INFO  com.project.success - No addresses found for stationNumber 99
+2025-01-24 01:45:30 INFO  com.project.success - Successfully fetched persons by station number: 99
+2025-01-24 01:45:30 INFO  com.project.success - Found 3 addresses for stationNumber 1
+2025-01-24 01:45:30 INFO  com.project.success - Found 5 adults and 1 children for stationNumber 1
+2025-01-24 01:45:30 INFO  com.project.success - Successfully fetched persons by station number: 1
+2025-01-24 01:45:30 WARN  com.project.success - No station found for address=Unknown Address
+2025-01-24 01:45:30 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:45:30 INFO  com.project.success - Successfully deleted medical record for pat
+2025-01-24 01:45:30 INFO  com.project.success - Successfully deleted medical record for: pat patrouille
+2025-01-24 01:45:30 INFO  com.project.success - Successfully retrieved 25 medical records
+2025-01-24 01:45:30 INFO  com.project.success - Successfully fetched all medical records.
+2025-01-24 01:45:30 INFO  com.project.success - Successfully rewritten medical record for pat
+2025-01-24 01:45:30 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:45:30 INFO  com.project.success - Successfully updated medical record for pat
+2025-01-24 01:45:30 INFO  com.project.success - Successfully updated medical record: com.project.SafetyNet.model.MedicalRecords@1276caf2
+2025-01-24 01:45:30 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:45:30 INFO  com.project.success - Successfully added medical record for pat
+2025-01-24 01:45:30 INFO  com.project.success - Successfully added medical record: com.project.SafetyNet.model.MedicalRecords@20461e2b
+2025-01-24 01:45:30 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:45:30 INFO  com.project.success - Successfully fetched all persons.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully retrieved 0 person info entries for last name no-name
+2025-01-24 01:45:31 INFO  com.project.success - No person info found for last name: no-name
+2025-01-24 01:45:31 INFO  com.project.success - Successfully retrieved 1 child alerts for address 892 Downing Ct
+2025-01-24 01:45:31 INFO  com.project.success - Successfully fetched child alert for address: 892 Downing Ct
+2025-01-24 01:45:31 INFO  com.project.success - Successfully retrieved 2 person info entries for last name cooper
+2025-01-24 01:45:31 INFO  com.project.success - Successfully fetched person info for last name: cooper
+2025-01-24 01:45:31 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully deleted person Ber Nadette
+2025-01-24 01:45:31 INFO  com.project.success - Successfully deleted person: Ber Nadette
+2025-01-24 01:45:31 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully added person Ber Nadette
+2025-01-24 01:45:31 INFO  com.project.success - Successfully added person: Person(firstName=Ber, lastName=Nadette, address=123 Main St, city=Pasici, zip=12345, phone=123-456-7890, email=ber.nadette@email.com)
+2025-01-24 01:45:31 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully retrieved 1 emails for city pasici
+2025-01-24 01:45:31 INFO  com.project.success - Successfully fetched emails for city: pasici
+2025-01-24 01:45:31 INFO  com.project.success - No children found at address: unknown address
+2025-01-24 01:45:31 INFO  com.project.success - Successfully updated fields for person Ber Nadette
+2025-01-24 01:45:31 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully updated person Ber Nadette
+2025-01-24 01:45:31 INFO  com.project.success - Successfully updated person: Person(firstName=Ber, lastName=Nadette, address=456 Oak St, city=New City, zip=98765, phone=123-456-7891, email=ber.nadette@newemail.com)
+2025-01-24 01:45:31 INFO  com.project.success - Successfully retrieved 24 persons.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully retrieved 0 emails for city unknown town
+2025-01-24 01:45:31 INFO  com.project.success - No emails found for city: unknown town
+2025-01-24 01:45:31 INFO  com.project.success - Successfully retrieved all firestations.
+2025-01-24 01:45:31 INFO  com.project.success - Found firestation mapping for address=5 impasse sans fin, deleting...
+2025-01-24 01:45:31 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully deleted firestation mapping for address=5 impasse sans fin.
+2025-01-24 01:45:31 INFO  com.project.success - Firestation mapping added successfully: com.project.SafetyNet.model.Firestations@4a45042a
+2025-01-24 01:45:31 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully fetched 1 firestations from the JSON file.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully updated firestation: com.project.SafetyNet.model.Firestations@12f3e95d
+2025-01-24 01:45:31 INFO  com.project.success - Updated firestation number for address=12bis boulevard de la rue to station=3
+2025-01-24 01:45:31 INFO  com.project.success - Firestation mappings have been successfully saved.
+2025-01-24 01:45:31 INFO  com.project.success - Found 1 addresses for stationNumber 1
+2025-01-24 01:45:31 INFO  com.project.success - Found 1 adults and 1 children for stationNumber 1
+2025-01-24 01:45:31 INFO  com.project.success - Successfully retrieved 2 medical records
+2025-01-24 01:45:31 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully deleted medical record for Jean
+2025-01-24 01:45:31 INFO  com.project.success - Successfully rewritten medical record for Jean
+2025-01-24 01:45:31 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully updated medical record for Jean
+2025-01-24 01:45:31 INFO  com.project.success - Successfully saved all medical records.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully added medical record for pierre
+2025-01-24 01:45:31 INFO  com.project.success - Successfully retrieved 2 persons.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully updated fields for person Jean Jacque
+2025-01-24 01:45:31 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully updated person Jean Jacque
+2025-01-24 01:45:31 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully deleted person Jean Jacque
+2025-01-24 01:45:31 INFO  com.project.success - Successfully saved all person data.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully added person Jean Jacque
+2025-01-24 01:45:31 INFO  com.project.success - Successfully retrieved 2 persons.
+2025-01-24 01:45:31 INFO  com.project.success - Successfully retrieved 2 emails for city grenoble

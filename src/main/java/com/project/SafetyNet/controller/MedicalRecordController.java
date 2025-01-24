@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.*;
 import com.project.SafetyNet.model.MedicalRecords;
 import com.project.SafetyNet.service.MedicalRecordsService;
 
+/**
+ * Controller for handling medical record-related API requests.
+ */
 @RestController
 @RequestMapping("/medicalRecord")
 public class MedicalRecordController {
@@ -27,6 +30,11 @@ public class MedicalRecordController {
         this.medicalRecordService = medicalRecordService;
     }
 
+    /**
+     * Fetches all medical records from the service.
+     * 
+     * @return list of {@link MedicalRecords}.
+     */
     @GetMapping
     public List<MedicalRecords> getAllMedicalRecords() {
         debugLogger.debug("Fetching all medical records.");
@@ -35,6 +43,12 @@ public class MedicalRecordController {
         return medicalRecords;
     }
 
+    /**
+     * Adds a new medical record.
+     * 
+     * @param medicalRecord the {@link MedicalRecords} to add.
+     * @return ResponseEntity with the status of the operation.
+     */
     @PostMapping
     public ResponseEntity<MedicalRecords> addMedicalRecord(@RequestBody MedicalRecords medicalRecord) {
         debugLogger.debug("Adding new medical record: {}", medicalRecord);
@@ -48,6 +62,12 @@ public class MedicalRecordController {
         }
     }
 
+    /**
+     * Updates an existing medical record.
+     * 
+     * @param medicalRecord the {@link MedicalRecords} to update.
+     * @return ResponseEntity with the status of the operation.
+     */
     @PutMapping
     public ResponseEntity<MedicalRecords> updateMedicalRecord(@RequestBody MedicalRecords medicalRecord) {
         debugLogger.debug("Updating medical record: {}", medicalRecord);
@@ -66,6 +86,13 @@ public class MedicalRecordController {
         }
     }
 
+    /**
+     * Deletes a medical record by first and last name.
+     * 
+     * @param firstName the first name of the person.
+     * @param lastName the last name of the person.
+     * @return ResponseEntity with the status of the operation.
+     */
     @DeleteMapping
     public ResponseEntity<Void> deleteMedicalRecord(@RequestParam String firstName, @RequestParam String lastName) {
         debugLogger.debug("Deleting medical record for: {} {}", firstName, lastName);
