@@ -837,3 +837,106 @@
 2025-01-24 01:45:28 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 22928 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
 2025-01-24 01:45:28 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
 2025-01-24 01:45:29 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.539 seconds (process running for 3.755)
+2025-01-24 09:40:02 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 13528 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-24 09:40:02 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-24 09:40:03 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.357 seconds (process running for 2.273)
+2025-01-30 19:01:46 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 20108 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:01:46 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:01:47 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.19 seconds (process running for 1.938)
+2025-01-30 19:02:27 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-30 19:02:27 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-30 19:02:27 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 15460 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:02:27 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:02:29 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.465 seconds (process running for 3.693)
+2025-01-30 19:19:41 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 11452 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:19:41 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:19:41 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.038 seconds (process running for 1.816)
+2025-01-30 19:19:54 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-30 19:19:55 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-30 19:19:55 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 17020 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:19:55 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:19:57 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.636 seconds (process running for 3.955)
+2025-01-30 19:23:34 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 6276 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:23:34 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:23:35 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.136 seconds (process running for 1.902)
+2025-01-30 19:24:23 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-30 19:24:23 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-30 19:24:24 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 12920 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:24:24 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:24:25 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.471 seconds (process running for 3.645)
+2025-01-30 19:25:19 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-30 19:25:19 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-30 19:25:20 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 2956 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:25:20 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:25:21 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.417 seconds (process running for 3.504)
+2025-01-30 19:25:28 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 22584 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:25:28 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:25:29 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.109 seconds (process running for 1.858)
+2025-01-30 19:25:40 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-30 19:25:40 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-30 19:25:41 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 10932 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:25:41 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:25:42 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.534 seconds (process running for 3.762)
+2025-01-30 19:26:13 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 9380 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:26:13 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:26:13 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.083 seconds (process running for 1.814)
+2025-01-30 19:26:23 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-30 19:26:23 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-30 19:26:24 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 22384 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:26:24 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:26:25 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.526 seconds (process running for 3.739)
+2025-01-30 19:27:36 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 8340 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:27:36 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:27:37 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.078 seconds (process running for 1.843)
+2025-01-30 19:27:49 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-30 19:27:49 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-30 19:27:50 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 13068 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 19:27:50 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 19:27:51 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.471 seconds (process running for 3.547)
+2025-01-30 21:05:28 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-30 21:05:28 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-30 21:05:29 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 14280 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 21:05:29 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 21:05:30 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.487 seconds (process running for 3.675)
+2025-01-30 21:05:35 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-30 21:05:35 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-30 21:05:36 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 25696 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 21:05:36 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 21:05:37 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.504 seconds (process running for 3.63)
+2025-01-30 21:10:03 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-30 21:10:03 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-30 21:10:04 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 26256 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 21:10:04 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 21:10:05 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.699 seconds (process running for 3.913)
+2025-01-30 21:55:10 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 28804 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 21:55:10 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 21:55:11 [main] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-01-30 21:55:31 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 24360 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 21:55:31 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 21:55:32 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.051 seconds (process running for 1.557)
+2025-01-30 21:55:54 [main] INFO  SafetyNetApplication - Starting SafetyNetApplication using Java 21.0.4 with PID 24112 (C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet\target\classes started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 21:55:54 [main] INFO  SafetyNetApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 21:55:55 [main] INFO  SafetyNetApplication - Started SafetyNetApplication in 1.076 seconds (process running for 1.831)
+2025-01-30 21:57:42 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-30 21:57:42 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-30 21:57:42 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 376 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 21:57:42 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 21:57:44 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.491 seconds (process running for 3.568)
+2025-01-30 21:57:48 [main] INFO  AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.project.SafetyNet.integrationTest.FirestationsControllerIT]: FirestationsControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-30 21:57:48 [main] INFO  SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.project.SafetyNet.SafetyNetApplication for test class com.project.SafetyNet.integrationTest.FirestationsControllerIT
+2025-01-30 21:57:49 [main] INFO  FirestationsControllerIT - Starting FirestationsControllerIT using Java 21.0.4 with PID 23924 (started by nicol in C:\Users\nicol\OneDrive\Bureau\Formation Java\projet5\SafetyNet)
+2025-01-30 21:57:49 [main] INFO  FirestationsControllerIT - No active profile set, falling back to 1 default profile: "default"
+2025-01-30 21:57:50 [main] INFO  FirestationsControllerIT - Started FirestationsControllerIT in 1.458 seconds (process running for 3.624)

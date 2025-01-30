@@ -15,7 +15,7 @@ public class FireResponseDTO {
 	     * Constructs a new FireResponseDTO with the provided information.
 	     *
 	     * @param stationNumber The station number to which the house belongs.
-	     * @param houseMembers  A list of Link FireDTO objects representing house members
+	     * @param houseMembers  A list of {@link FireDTO} objects representing house members
 	     */
 	    public FireResponseDTO(String stationNumber, List<FireDTO> houseMembers) {
 	        this.stationNumber = stationNumber;
@@ -34,7 +34,7 @@ public class FireResponseDTO {
 	    /**
 	     * Gets the list of house members associated with the fire station.
 	     * 
-	     * @return A list of FireDTO objects representing the house members.
+	     * @return A list of {@link FireDTO} objects representing the house members.
 	     */
 	    public List<FireDTO> getHouseMembers() {
 	        return houseMembers;

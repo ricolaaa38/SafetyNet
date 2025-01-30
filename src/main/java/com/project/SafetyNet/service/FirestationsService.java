@@ -1,9 +1,6 @@
 package com.project.SafetyNet.service;
 
 import java.io.IOException;
-import java.time.LocalDate;
-import java.time.Period;
-import java.time.format.DateTimeFormatter;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -13,10 +10,8 @@ import java.util.stream.Collectors;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.project.SafetyNet.controller.FirestationController;
 import com.project.SafetyNet.dto.FireDTO;
 import com.project.SafetyNet.dto.FireResponseDTO;
 import com.project.SafetyNet.dto.FloodDTO;
@@ -38,7 +33,7 @@ public class FirestationsService {
     private static final Logger errorLogger = LogManager.getLogger("com.project.error");
     private static final Logger debugLogger = LogManager.getLogger("com.project.debug");
 
-	@Autowired
+	
 	public FirestationsService(JsonFileConnect jsonFileConnect) {
 		this.jsonFileConnect = jsonFileConnect;
 	}
@@ -294,7 +289,7 @@ public class FirestationsService {
      * Retrieves the firestation number and details of house members for a specific address.
      *
      * @param address the address to retrieve information for.
-     * @return a {@Link FireResponseDTO} containing the station number and details of house members.
+     * @return a {@link FireResponseDTO} containing the station number and details of house members.
      */
 	public FireResponseDTO getHouseMembersAndFirestationByAddress(String address) {
 	    debugLogger.debug("Starting method getHouseMembersAndFirestationByAddress with address={}", address);
@@ -350,7 +345,7 @@ public class FirestationsService {
      * Retrieves residents informations for a given firestation.
      *
      * @param station the firestation number.
-     * @return a list of {@Link FloodDTO} containing addresses and their residents' details.
+     * @return a list of {@link FloodDTO} containing addresses and their residents' details.
      */
 	public List<FloodDTO> getFloodInfoByStation(String station) {
 	    debugLogger.debug("Starting method getFloodInfoByStation with station={}", station);

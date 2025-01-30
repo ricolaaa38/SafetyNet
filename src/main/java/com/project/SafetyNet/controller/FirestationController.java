@@ -5,12 +5,10 @@ import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.project.SafetyNet.dto.FireDTO;
 import com.project.SafetyNet.dto.FireResponseDTO;
 import com.project.SafetyNet.dto.FloodDTO;
 import com.project.SafetyNet.model.Firestations;
@@ -32,7 +30,7 @@ public class FirestationController {
     /**
      * Constructs a FirestationController with the specified FirestationsService.
      * 
-     * @param firestationService
+     * @param firestationService totottoto
      */
     public FirestationController(FirestationsService firestationService) {
         this.firestationService = firestationService;

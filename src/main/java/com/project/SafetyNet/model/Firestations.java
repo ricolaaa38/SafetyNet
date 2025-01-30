@@ -4,6 +4,13 @@ package com.project.SafetyNet.model;
  * Represents a firestation with its addresses and station number.
  */
 public class Firestations {
+	
+	/**
+	 * Default constructor
+	 * Initialize a new instance of the Firestations class
+	 */
+	public Firestations() {}
+	
 	private String address;
     private String station;
     

@@ -2,12 +2,10 @@ package com.project.SafetyNet.service;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.project.SafetyNet.dto.ChildAlertDTO;
 import com.project.SafetyNet.dto.PersonInfoLastNameDTO;
-import com.project.SafetyNet.model.Firestations;
 import com.project.SafetyNet.model.MedicalRecords;
 import com.project.SafetyNet.model.Person;
 import com.project.SafetyNet.repository.JsonFileConnect;
@@ -33,7 +31,6 @@ public class PersonService {
     private static final Logger errorLogger = LogManager.getLogger("com.project.error");
     private static final Logger debugLogger = LogManager.getLogger("com.project.debug");
 
-    @Autowired
     public PersonService(JsonFileConnect jsonFileConnect) {
         this.jsonFileConnect = jsonFileConnect;
     }
